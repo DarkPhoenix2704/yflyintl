@@ -31,36 +31,19 @@ export const Navbar = () => {
           />
         </Link>
         <div className="md:flex flex-row space-x-6 items-center hidden">
-          <a
-            href="#"
-            className="text-lg flex items-end font-semibold"
-            onMouseEnter={() => {
-              setHovered("destinations");
-            }}
-            onMouseLeave={() => {
-              setHovered(null);
-            }}
-          >
-            Study Destinations
-            <svg
-              className="w-6 h-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z"
-                fill="currentColor"
-              ></path>
-            </svg>
+          <a href="#" className="text-lg font-semibold">
+            Home
+          </a>
+          <a href="#" className="text-lg font-semibold">
+            About Us
           </a>
           <a href="#" className="text-lg font-semibold">
             Services
           </a>
           <a href="#" className="text-lg font-semibold">
-            Contact Us
+            Contact
           </a>
-          <button className="bg-gradient-to-r from-[#fdaf4d] to-[#ff6a56] text-white font-semibold rounded-md px-6 py-2">
+          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2">
             Enquire Now
           </button>
         </div>
@@ -77,7 +60,7 @@ export const Navbar = () => {
         )}
       </div>
       {show && (
-        <div className="w-full h-[100vh] gap-16 flex flex-col  justify-center items-center absolute z-[3] bg-[#226cf5]">
+        <div className="w-full h-[100vh] gap-16 flex flex-col  justify-center items-center sticky z-[3] bg-[#226cf5]">
           <Link href="/">
             <Image
               src="/logo_white.png"
@@ -87,34 +70,17 @@ export const Navbar = () => {
             />
           </Link>
           <div className="flex flex-col text-white space-y-4 items-center ">
-            <a
-              href="#"
-              className="text-lg flex items-end font-semibold"
-              onMouseEnter={() => {
-                setHovered("destinations");
-              }}
-              onMouseLeave={() => {
-                setHovered(null);
-              }}
-            >
-              Study Destinations
-              <svg
-                className="w-6 h-6"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+            <a href="#" className="text-lg font-semibold">
+              Home
+            </a>
+            <a href="#" className="text-lg font-semibold">
+              About Us
             </a>
             <a href="#" className="text-lg font-semibold">
               Services
             </a>
             <a href="#" className="text-lg font-semibold">
-              Contact Us
+              Contact
             </a>
             <button className="bg-gradient-to-r from-[#fdaf4d] to-[#ff6a56] text-white font-semibold rounded-md px-6 py-2">
               Enquire Now
