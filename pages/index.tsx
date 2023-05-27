@@ -5,8 +5,8 @@ import { IoBookOutline, IoHomeOutline } from "react-icons/io5";
 import { MdFlight } from "react-icons/md";
 import { GrVisa } from "react-icons/gr";
 import { HiOutlineAcademicCap } from "react-icons/hi";
-import Head from "next/head";
 import Link from "next/link";
+import { HiArrowRight } from "react-icons/hi2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -115,6 +115,26 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex gap-3 flex-col relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">
+          <h1 className=" text-3xl md:text-6xl text-[#040c61] font-semibold">
+            Are you ready to fly
+          </h1>
+          <p className=" text-[#040c61] text-xl md:text-2xl font-semibold">
+            and pursue your dreams?
+          </p>
+          <button className="bg-white gap-2 items-center justify-center flex flex-row rounded-md w-48 px-4 py-3">
+            <Link href="https://registration.yflyinternational.com/">
+              Get Started
+            </Link>
+            <HiArrowRight className="text-2xl" />
+          </button>
+          <img
+            src="/girl.png"
+            width="300px"
+            alt="Plane"
+            className="hidden md:block absolute top-[-50px] right-[50px]"
+          />
         </div>
       </div>
     </div>
