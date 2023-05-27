@@ -44,7 +44,9 @@ export const Navbar = () => {
             Contact
           </a>
           <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2">
-            Enquire Now
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
+            </Link>
           </button>
         </div>
         {show ? (
@@ -83,7 +85,9 @@ export const Navbar = () => {
               Contact
             </a>
             <button className="bg-gradient-to-r from-[#fdaf4d] to-[#ff6a56] text-white font-semibold rounded-md px-6 py-2">
-              Enquire Now
+              <Link href="https://registration.yflyinternational.com/">
+                Enquire Now
+              </Link>
             </button>
           </div>
         </div>

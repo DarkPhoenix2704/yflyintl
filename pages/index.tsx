@@ -5,6 +5,8 @@ import { IoBookOutline, IoHomeOutline } from "react-icons/io5";
 import { MdFlight } from "react-icons/md";
 import { GrVisa } from "react-icons/gr";
 import { HiOutlineAcademicCap } from "react-icons/hi";
+import Head from "next/head";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +31,9 @@ export default function Home() {
               to the next level.
             </p>
             <button className="bg-[#5c0dff] w-48 py-4 text-white font-bold text-lg rounded-xl px-6  mt-4">
-              Join Us
+              <Link href="https://registration.yflyinternational.com/">
+                Join Us
+              </Link>
             </button>
           </div>
           <div className="md:flex flex-col hidden md:w-1/2">
