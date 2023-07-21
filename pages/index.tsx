@@ -8,11 +8,9 @@ import { HiOutlineAcademicCap } from "react-icons/hi";
 import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi2";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
-    <div className={inter.className}>
+    <>
       <Navbar />
       <div className="flex flex-col">
         <div className="flex flex-col-reverse md:flex-row mt-8 justify-center items-center">
@@ -137,6 +135,6 @@ export default function Home() {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
