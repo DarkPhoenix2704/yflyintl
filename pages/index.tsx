@@ -11,7 +11,6 @@ import { HiArrowRight } from "react-icons/hi2";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="flex flex-col">
         <div className="flex flex-col-reverse md:flex-row mt-8 justify-center items-center">
           <div className="flex flex-col md:w-1/2 md:mx-16 mx-4 gap-2">
