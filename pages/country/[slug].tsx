@@ -7,6 +7,8 @@ const StudyDestination = ({
   slug,
   name,
   description,
+  why,
+  facts,
 }: (typeof destinations)[0]) => {
   return (
     <div className="flex justify-center items-center flex-col">
@@ -47,6 +49,27 @@ const StudyDestination = ({
           Enquire Now
         </Link>
       </button>
+      <hr className="w-11/12 my-8" />
+      <div className="w-11/12 flex flex-col gap-4 lg:flex-row">
+        <div className="flex flex-col lg:w-1/2">
+          <h1 className="text-3xl font-semibold text-[#5327b3]">
+            Why Study in {name}?
+          </h1>
+          <p className="text-lg mt-4 text-justify">{why}</p>
+        </div>
+        <div className="flex flex-col lg:w-1/2 lg:px-8">
+          <h1 className="text-3xl font-semibold text-[#5327b3]">
+            Quick Facts about {name}
+          </h1>
+          <ul className="list-disc list-inside mt-4">
+            {facts.map((fact) => (
+              <li key={fact} className="text-justify text-lg">
+                {fact}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
@@ -75,6 +98,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       slug: destination?.slug,
       name: destination?.name,
       description: destination?.description,
+      why: destination?.why,
+      facts: destination?.facts,
     },
   };
 };
