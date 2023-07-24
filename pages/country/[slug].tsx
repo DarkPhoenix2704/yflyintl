@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { Disclosure, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
-import { HiChevronUp } from "react-icons/hi2";
+import { HiArrowRight, HiChevronUp } from "react-icons/hi2";
 
 const StudyDestination = ({
   slug,
@@ -135,7 +135,7 @@ const StudyDestination = ({
           </ul>
         </div>
       </div>
-      <div className="py-4 lg:py-16 px-4 lg:w-8/12">
+      <div className="py-4 lg:py-16 px-4 lg:w-11/12">
         <h1 className="text-center text-4xl font-bold text-[#5327b3]">FAQs</h1>
         <div className="flex gap-2 mt-4 flex-col">
           {faqs.map((faq) => (
@@ -172,6 +172,26 @@ const StudyDestination = ({
             </Disclosure>
           ))}
         </div>
+      </div>
+      <div className="flex w-11/12 gap-3 flex-col relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">
+        <h1 className=" text-3xl md:text-6xl text-[#040c61] font-semibold">
+          Are you ready to fly
+        </h1>
+        <p className=" text-[#040c61] text-xl md:text-2xl font-semibold">
+          and pursue your dreams?
+        </p>
+        <button className="bg-white gap-2 items-center justify-center flex flex-row rounded-md w-48 px-4 py-3">
+          <Link href="https://registration.yflyinternational.com/">
+            Get Started
+          </Link>
+          <HiArrowRight className="text-2xl" />
+        </button>
+        <img
+          src="/girl.png"
+          width="300px"
+          alt="Plane"
+          className="hidden md:block absolute top-[-50px] right-[50px]"
+        />
       </div>
     </div>
   );
