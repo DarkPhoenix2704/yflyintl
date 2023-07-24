@@ -9,6 +9,8 @@ const StudyDestination = ({
   description,
   why,
   facts,
+  insights,
+  cost,
 }: (typeof destinations)[0]) => {
   return (
     <div className="flex justify-center items-center flex-col">
@@ -70,6 +72,35 @@ const StudyDestination = ({
           </ul>
         </div>
       </div>
+      <hr className="w-11/12 my-8" />
+      <div className="w-11/12 flex flex-col gap-4">
+        <h1 className="text-center text-3xl font-semibold text-[#5327b3]">
+          Cost of Studying in {name}
+        </h1>
+        <table className="table-auto">
+          <thead>
+            <tr className="bg-[#f4e0ff]">
+              <th className="border px-4 py-2">Expense</th>
+              <th className="border px-4 py-2">Cost in {cost.currency}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cost.fees.map((fee) => (
+              <tr className="last:bg-[#f4e0ff]" key={fee.name}>
+                <td className="border px-4 py-2">{fee.name}</td>
+                <td className="border px-4 text-center py-2">{fee.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <hr className="w-11/12 my-8" />
+      <div className="w-11/12 flex flex-col gap-4">
+        <h1 className="text-center text-3xl font-semibold text-[#5327b3]">
+          Career & Industry Insights
+        </h1>
+        <p className="text-justify text-lg">{insights}</p>
+      </div>
     </div>
   );
 };
@@ -100,6 +131,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       description: destination?.description,
       why: destination?.why,
       facts: destination?.facts,
+      insights: destination?.insights,
+      cost: destination?.cost,
     },
   };
 };
