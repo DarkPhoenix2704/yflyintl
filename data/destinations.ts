@@ -44,6 +44,40 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Applied Sciences",
+      "Business & Management",
+      "Computer Science & IT",
+      "Engineering & Technology",
+      "Public Health & Healthcare Administration",
+    ],
+    faqs: [
+      {
+        question: "Can you work while studying in United States?",
+        answer:
+          "As an international student you may work on campus up to 20 hours/week in the first year of study in US and can apply to work off-campus in the subsequent years only with due permission of the International Student Office under CPT or OPT.",
+      },
+      {
+        question: "What are the English language Proficiency in USA?",
+        answer:
+          "U.S. universities require an English language proficiency test before admission and the test requirements vary depending on the course you apply for. English Language Ability Tests. The most common tests of English language ability are the Test of English as a Foreign Language (TOEFL), the International English Language Testing System (IELTS), and the Pearson Test of English (PTE).        ",
+      },
+      {
+        question: "What are the other Standardized Tests in USA?",
+        answer:
+          "Undergraduate Level Examinations SAT: A standardized test to evaluate the written, verbal and mathematical skills of the applicants. ACT: To test the student's ability in English, Math, Science, Reading and Writing sections. Graduate-Level Examinations GRE: A standardized test of verbal reasoning, quantitative reasoning, and analytical writing for graduate-level study. GMAT: A standardized test for MBA applicants and for business programs that measures basic verbal, mathematical, analytical writing and integrated reasoning skills. MCAT: A standardized examination that assesses problem solving, critical thinking, writing skills, and knowledge of science concepts and principles essential for the study of medicine. LSAT: A standardized test to measure the reading and verbal reasoning skills used by the law schools as an assessment factor for admission. DAT: A test to measure general academic ability, comprehension of scientific information, and perceptual ability, used for admission to Dental schools.        ",
+      },
+      {
+        question: "What are the popular courses in the USA?",
+        answer:
+          "STEM (Sciences, Technology, Engineering and Mathematics) subjects are mostly opted by international as well as domestic students in the USA. However, Psychology, Business Administration, Education, Economics and Political Science are certain other popular courses.        ",
+      },
+      {
+        question: "Are there any scholarships available in the USA?",
+        answer:
+          "Scholarships and grants are usually awarded to international students in USA on the basis of merit, need or any other exceptional excellence like proficiency in sports, cultural activities or a remarkable contribution in community service. The scholarships are highly competitive. Many American universities also offer grants for foreign students who wish to study at their institution but these vary substantially from university to university. The Standardized Test scores play a vital role in U.S. universities granting scholarships.        ",
+      },
+    ],
   },
   {
     slug: "canada",
@@ -87,6 +121,42 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Allied Health & Social Services",
+      "Business & Management",
+      "Computer Science & IT",
+      "Engineering & Technology",
+      "Media & Communication",
+      "Construction & Architecture",
+    ],
+    faqs: [
+      {
+        question: "What are the requirements to study in Canada?",
+        answer:
+          "Each institution in Canada has its own policy regarding admission requirements for international students. The entry criteria may vary according to the programs as well. The minimum percentage required for Community Colleges is 55% and above in the previous educational qualification and for universities it is 60% and above. Besides, an English Proficiency score is also required. The websites of the institutions may also be checked to get the exact requirements. ",
+      },
+      {
+        question: "Which study fields can we opt for in Canada?",
+        answer:
+          "You will get varied options in the technical and professional fields including: Business, Agriculture and Agri-Food, Health, Social services, Broadcasting and Journalism, Hospitality and Tourism, Design, Technology, Sciences, Information Technology, Engineering, Environment, Languages, and Arts        ",
+      },
+      {
+        question: "How much does it cost to study in Canada?",
+        answer:
+          "Studying in Canada can be relatively cheaper as Canada offers low tuition rates for international students as compared to the U.S., the U.K., and Australia. The average cost of study including tuition and living cost is CAD 35, 000 per year.        ",
+      },
+      {
+        question: "Can International students work while studying in Canada?",
+        answer:
+          "International students can work while studying in Canada if they have a valid study permit and a Social Insurance Number (SIN). The students can work part time for 20 hours a week during term time and 40 hours i.e. full time during vacations. Besides many of the institutions in Canada offer paid internships as part of the course where in the students get the opportunity to work full time in industry relating to their area of study.        ",
+      },
+      {
+        question:
+          "Can students stay back in Canada after completing their studies?",
+        answer:
+          "If you graduate from a Designated Learning Institution, then you can gain valuable Canadian work experience under the Post-Graduation Work Permit Program (PGWPP). Normally a work permit visa is granted for one year on a study of one year. For a study of at least 2 or more years the student can get post study work visa of up to 3 more years.        ",
+      },
+    ],
   },
   {
     slug: "uk",
@@ -137,6 +207,40 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Art & Design",
+      "Business & Management",
+      "Engineering & Technology",
+      "Media & Communication",
+      "Sciences",
+    ],
+    faqs: [
+      {
+        question: "What are the popular courses in the UK?",
+        answer:
+          "UK is the global leader in numerous areas of education like engineering, science, art & design, business & management, law and finance.        ",
+      },
+      {
+        question: "What are the standardized test requirements in the UK?",
+        answer:
+          "The standardized test requirements will vary for international students depending on the program. By and large only English Language tests, such as IELTS, TOEFL or PTE are required by most of the Universities. The tests such as GRE, GMAT or SAT are required by very few Universities and for selected courses only.        ",
+      },
+      {
+        question: "What would be the average annual cose to study in UK?",
+        answer:
+          "The average annual costs for international students are approximately £ 30,000 in the UK which are lower than the annual costs borne by international students in the USA as well as Australia.        ",
+      },
+      {
+        question: "Can I work in the UK on a study Visa?",
+        answer:
+          "You can take a part-time job, work placement or internship alongside your studies in UK and the hours and type of work will depend on the type of visa and your sponsoring university or college.",
+      },
+      {
+        question: "Do International students get scholarships in the UK?",
+        answer:
+          "Numerous scholarships, bursaries and grant schemes are on offer for international students and depending on your nationality, you may be eligible for a loan or financial support also from the UK government. Many institutions also offer their own financial assistance.        ",
+      },
+    ],
   },
   {
     slug: "ireland",
@@ -183,6 +287,37 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Computer & Data Science",
+      "Data & Business Analytics",
+      "Investment Banking & Finance",
+      "Pharmaceuticals & Healthcare",
+      "Engineering & Technology",
+    ],
+    faqs: [
+      {
+        question:
+          "What are the popular universities to pursue courses in Ireland?",
+        answer:
+          "In Ireland, there are many universities that offer master’s degrees. There are 8 Government-funded Irish Universities that offer master’s programs. These universities offer high-quality education that can lead to career success. The following is a list of Irish universities • Trinity College Dublin, Dublin • University College Dublin, Dublin • The National University of Ireland Galway, Galway • University College Cork, Cork • Dublin City University, Dublin • University of Limerick, Limerick • Maynooth University, Maynooth • Technological University Dublin • Dundalk Institute of Technology, Dundalk • Technological University of the Shannon: Midlands Midwest, Shannon        ",
+      },
+      {
+        question:
+          "What is the eligibility criteria for admission to Irish Universities?",
+        answer:
+          "For students seeking master's degrees from Irish institutions, they need a graduation grade of 55%-75% and an IELTS score of 6.5. There are also some selective universities that accept IELTS scores of 5.5.        ",
+      },
+      {
+        question: "Why study in Ireland?",
+        answer:
+          "Ireland is home to 9 of 10 global ICT companies, 8 of 10 global pharmaceutical companies, and a global financial services powerhouse and a centre of international banking excellence, Ireland is the European hub for over 1,000 multinational corporations. There are several global giants that offer career opportunities in Ireland, including Microsoft, Google, PayPal, Apple, Twitter, Microsoft, LinkedIn, Pfizer, GSK, and Genzyme.        ",
+      },
+      {
+        question: "What are the best courses to study in Ireland?",
+        answer:
+          "There are several popular courses available to students in Ireland. Students can choose these courses according to their interests. • Computer & Data Science • Data & Business Analytics • Investment Banking & Finance • Pharmaceutical Sciences • Engineering & Construction        ",
+      },
+    ],
   },
   {
     slug: "newzealand",
@@ -229,6 +364,40 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Agriculture & Forestry",
+      "Business & Management",
+      "Engineering & Technology",
+      "Health & Social Services",
+      "Information Technology",
+    ],
+    faqs: [
+      {
+        question: "Why is New Zealand developing as a study destination?",
+        answer:
+          "The New Zealand study abroad experience is one of a kind with perfect programs for students from almost every major. It is based on the prestigious British Education System and all the eight universities of New Zealand are ranked in the top 3% in the world. The support services for international students are amongst one of the best and the country is welcome to immigration. Due to these reasons, New Zealand has developed as an ideal overseas study destination.        ",
+      },
+      {
+        question: "What are the popular study fields in New Zealand?",
+        answer:
+          "The popular study fields in New Zealand are • Business and Management • Information Technology • Engineering and Technology • Construction, Architecture and Built Environment • Health • Operations and Logistics • Hospitality and Tourism        ",
+      },
+      {
+        question: "How much does it cost to study in New Zealand?",
+        answer:
+          "Tuition fees for international students to study in New Zealand depends on the Institution, program, place and duration of study. On an average you would need $17,000- -$40,000 per year based on the Institution and program you choose.        ",
+      },
+      {
+        question: "How can I get a scholarship in New Zealand?",
+        answer:
+          "There are numerous scholarships for international students to study in New Zealand for all the levels of study. The scholarships are offered by the New Zealand Government, Educational Institutions and Philanthropists.",
+      },
+      {
+        question: "How can I get a Visa to study in New Zealand?",
+        answer:
+          "You would need a student visa for New Zealand if you want to study for more than three months. The application process will be cheaper, faster and easier if you apply online. The student needs to have a valid unconditional letter of admission from a NZQA accredited Institution and provide supporting of required finances that would be needed towards tuition fees and living & accommodation cost for duration of stay in New Zealand.        ",
+      },
+    ],
   },
   {
     slug: "australia",
@@ -275,5 +444,34 @@ export const destinations = [
         },
       ],
     },
+    courses: [
+      "Business & Management",
+      "Engineering & Built Environment",
+      "Health & Nursing",
+      "Computer Science & IT",
+      "Sciences",
+    ],
+    faqs: [
+      {
+        question: "Why Study in Australia?",
+        answer:
+          "Australia has some of the very best attributes desired by international students in a study-abroad destination. With high ranked universities, availability of part-time jobs, and 6 years* Post Study Work Visa, students find Australia one of the best places to obtain their higher education.",
+      },
+      {
+        question: "Which courses can we apply in Australian Institutons?",
+        answer:
+          "You can opt for a course of your choice, be it from Science, Management, Tourism, Hospitality, Commerce, Humanities, Engineering, Law or Health Sciences. Whatever you choose you will get the best as Australian institutions rank among the world’s best particularly in the fields of Engineering and Technology, Medicine, Nursing, Environmental Science, Accounting and Finance.        ",
+      },
+      {
+        question: "What are the entry requirements for Australia?",
+        answer:
+          "You will need to meet a range of entry requirements both for your institution application and your visa application for Australia. • Academic requirements • English language requirements • Evidence of funds to support your study • Overseas student health cover        ",
+      },
+      {
+        question: "Do International students need a health cover in Australia?",
+        answer:
+          "As an international student, you need to have Overseas Student Health Cover (OSHC) for the entire duration of your study in Australia.        ",
+      },
+    ],
   },
 ];

@@ -1,7 +1,9 @@
 import { destinations } from "@app/data/destinations";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { Disclosure, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
+import { HiChevronUp } from "react-icons/hi2";
 
 const StudyDestination = ({
   slug,
@@ -11,6 +13,8 @@ const StudyDestination = ({
   facts,
   insights,
   cost,
+  courses,
+  faqs,
 }: (typeof destinations)[0]) => {
   return (
     <div className="flex justify-center items-center flex-col">
@@ -101,6 +105,74 @@ const StudyDestination = ({
         </h1>
         <p className="text-justify text-lg">{insights}</p>
       </div>
+      <div className="w-11/12 flex my-8 flex-col lg:flex-row gap-4">
+        <div className="flex flex-col lg:w-1/2">
+          <Image
+            src="/discuss.jpg"
+            width={500}
+            height={350}
+            alt=""
+            className="rounded-md hidden lg:block w-full mr-4"
+          />
+        </div>
+        <div className="flex flex-col lg:w-1/2">
+          <h1 className="text-3xl text-center lg:text-left font-semibold text-[#5327b3]">
+            Popular Courses
+          </h1>
+          <Image
+            src="/discuss.jpg"
+            width={500}
+            height={350}
+            alt=""
+            className="rounded-md mt-2  lg:hidden w-full mr-4"
+          />
+          <ul className="list-disc list-inside mt-4">
+            {courses.map((course) => (
+              <li key={course} className="text-justify px-4 py-2 text-lg">
+                {course}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="py-4 lg:py-16 px-4 lg:w-8/12">
+        <h1 className="text-center text-4xl font-bold text-[#5327b3]">FAQs</h1>
+        <div className="flex gap-2 mt-4 flex-col">
+          {faqs.map((faq) => (
+            <Disclosure key={faq.question}>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-semibold text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    {faq.question}
+                    <HiChevronUp
+                      className={`${
+                        open ? "transform rotate-180" : ""
+                      } w-5 h-5 text-purple-500`}
+                    />
+                  </Disclosure.Button>
+
+                  <Transition
+                    show={open}
+                    enter="transition duration-100 ease-out"
+                    enterFrom="transform opacity-0"
+                    enterTo="transform  opacity-100"
+                    leave="transition duration-75 ease-out"
+                    leaveFrom="transform  opacity-100"
+                    leaveTo="transform opacity-0"
+                  >
+                    <Disclosure.Panel
+                      className="px-2 pt-2 pb-2 text-md text-gray-500"
+                      static
+                    >
+                      {faq.answer}
+                    </Disclosure.Panel>
+                  </Transition>
+                </>
+              )}
+            </Disclosure>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
@@ -133,6 +205,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       facts: destination?.facts,
       insights: destination?.insights,
       cost: destination?.cost,
+      courses: destination?.courses,
+      faqs: destination?.faqs,
     },
   };
 };
