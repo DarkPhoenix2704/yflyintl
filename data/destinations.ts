@@ -3,6 +3,7 @@ export const destinations = [
     slug: "usa",
     name: "USA",
     flag: "/Flag/USA.svg",
+    grids: "/grids/USA.png",
     path: "/country/usa",
     description:
       "The United States of America has been a global leader in the field of education and boasts of a lion’s share of top ranked universities according to all major international rankings. Few countries offer as many high ranked universities and noble laureate academia, as USA does.",
@@ -84,6 +85,7 @@ export const destinations = [
     name: "Canada",
     flag: "/Flag/Canada.svg",
     path: "/country/canada",
+    grids: "/grids/Canada.png",
     description:
       "A country that offers a truly dynamic education system with some of the world’s best universities, a high standard of living & a promising future, Canada is undoubtedly amongst the most popular and ideal study destinations in the world.    ",
     why: "Study in a country that has tripled its international student population over the past decade, thanks to its globally recognized universities offering a world class education, highly practical programs with hands-on learning and some of the most affordable tuition fees among English-speaking countries. Enjoy top quality life in the ‘most liveable cities’ of Vancouver and Toronto and advance your career in one of the very resource rich, industrialized and stable economies.    ",
@@ -163,6 +165,7 @@ export const destinations = [
     name: "United Kingdom",
     flag: "/Flag/UK.svg",
     path: "/country/uk",
+    grids: "/grids/UK.png",
     description:
       "With an academic reputation built on centuries old heritage, The UK is home to some of the world’s oldest universities that consistently rank among the highest in the world. Universities in UK have a rich legacy of welcoming international students for centuries and are known to offer an unforgettable student experience as they know the needs and aspirations of their students very well.    ",
     why: "Learn from some of the world's best academics and experts in some of world’s most prestigious universities and benefit from their exceptional academic support. Study alongside some of the finest and brilliant minds and hone your skills using state-of-the-art technology. Avail placements, internships and volunteering positions that are your right fit through strong industry links of UK universities and apply your knowledge and skills in a real-world professional environment. Graduate with skills and expertise that are in high demand around the world and get hired by your dream employers.    ",
@@ -246,6 +249,7 @@ export const destinations = [
     slug: "ireland",
     name: "Ireland",
     flag: "/Flag/Ireland.svg",
+    grids: "/grids/Ireland.png",
     path: "/country/ireland",
     description:
       "Ireland is a country that is known for its rich culture, heritage and history. It is also known for its high quality of education and is home to some of the best universities in the world.",
@@ -323,6 +327,7 @@ export const destinations = [
     slug: "newzealand",
     name: "New Zealand",
     flag: "/Flag/NewZealand.svg",
+    grids: "/grids/NewZealand.png",
     path: "/country/newzealand",
     description:
       "New Zealand offers world class education system, qualifications that are valued globally, an unmatchable lifestyle and friendly & welcoming natives. This island country has abundant natural beauty, breathtaking landscapes and picturesque coastlines that make studying in New Zealand an adventurous experience.    ",
@@ -403,6 +408,7 @@ export const destinations = [
     slug: "australia",
     name: "Australia",
     flag: "/Flag/Australia.svg",
+    grids: "/grids/Australia.png",
     path: "/country/australia",
     description:
       "A network of world leading universities, outstanding learning & research facilities, inspiring lectures from brilliant instructors & unparalleled academic excellence, Australian education system offers them all with an exceptional student experience & qualifications that are valued world over.    ",
