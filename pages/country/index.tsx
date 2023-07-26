@@ -1,15 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { destinations } from "@app/data/destinations";
 import { Listbox } from "@headlessui/react";
-import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useState } from "react";
-import {
-  HiChevronDoubleDown,
-  HiChevronDown,
-  HiChevronRight,
-} from "react-icons/hi2";
+import { HiChevronDown, HiChevronRight } from "react-icons/hi2";
 
 const selectOptions = destinations.map((destination) => ({
   id: destination.slug,
@@ -20,7 +14,6 @@ const CountryPage = () => {
   const [selectedCountry, setSelectedCountry] = useState<
     (typeof selectOptions)[0] | null
   >(null);
-  const router = useRouter();
   return (
     <div className="flex flex-col items-center ">
       <div className="bg-[#6c48f0] py-16 gap-4 w-full flex flex-col items-center">
