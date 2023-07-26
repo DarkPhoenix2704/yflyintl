@@ -40,7 +40,8 @@ const CountryPage = () => {
         <Listbox
           value={selectedCountry}
           onChange={(country) => {
-            router.push(`/country/#${country?.id}`);
+            setSelectedCountry(country);
+            window.location.hash = country?.id ?? "";
           }}
         >
           <Listbox.Button className="text-md bg-white text-left flex justify-between font-semibold w-[325px] rounded-md  px-4 py-2 text-[#5327b3]">
