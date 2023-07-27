@@ -14,7 +14,7 @@ const selectOptions = destinations.map((destination) => ({
 const UniverityPage = () => {
   const [selectedCountry, setSelectedCountry] = useState<
     (typeof selectOptions)[0] | null
-  >(null);
+  >(selectOptions[0]);
 
   const [search, setSearch] = useState<string | null>(null);
 
