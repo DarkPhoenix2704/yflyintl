@@ -119,7 +119,7 @@ export const Navbar = () => {
                         {services.map((service) => (
                           <Link
                             key={service.name}
-                            href="##"
+                            href={service.path}
                             className="flow-root rounded-md px-2 py-2 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                           >
                             <span className="flex gap-2 items-center">
