@@ -82,14 +82,14 @@ export const university = [
   },
   {
     id: 807,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Bloomsbury Institute, London",
     website: " https://www.bil.ac.uk/",
     image: "/colleges/Bloomsbury_Institute_London_England_c308594d6f.png",
   },
   {
     id: 767,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Bath, Bath, England",
     website: "https://www.bath.ac.uk/",
     image: "/colleges/Bath_Uni_Logo_e87b32b5cc.jpg",
@@ -148,7 +148,7 @@ export const university = [
   },
   {
     id: 21,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Liverpool, Liverpool, England",
     website: "www.liv.ac.uk",
     image:
@@ -215,7 +215,7 @@ export const university = [
   },
   {
     id: 789,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Ravensbourne University London, England",
     website: "https://www.ravensbourne.ac.uk/",
     image: "/colleges/1_04d2ab5647.png",
@@ -275,7 +275,7 @@ export const university = [
   },
   {
     id: 30,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(INTO) City University London (Except PG Courses of Business), London, England",
     website: "www.intohigher.com/city",
     image:
@@ -334,7 +334,7 @@ export const university = [
   },
   {
     id: 68,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "London South Bank University, London, England",
     website: "www.lsbu.ac.uk",
     image:
@@ -363,14 +363,14 @@ export const university = [
   },
   {
     id: 792,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Bolton, Bolton, England",
     website: "https://www.bolton.ac.uk/ ",
     image: "/colleges/University_of_Bolton_7fd84a4957.png",
   },
   {
     id: 69,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "QAHE- Ulster University, Birmingham & London, England",
     website: "www.qabs.ulster.ac.uk",
     image:
@@ -378,7 +378,7 @@ export const university = [
   },
   {
     id: 70,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of South Wales, Cardiff, Wales (Except students from Punjab & Haryana)",
     website: "www.southwales.ac.uk",
     image: "/colleges/University_of_South_Wales_Cardiff_Wales_412e7a49a4.png",
@@ -406,7 +406,7 @@ export const university = [
   },
   {
     id: 793,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Law, Guildford, England",
     website: "https://www.law.ac.uk/",
     image: "/colleges/University_of_Law_Guildford_England_7e03a6f999.png",
@@ -428,7 +428,7 @@ export const university = [
   },
   {
     id: 93,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "BPP University (Except Andhra Pradesh, Gujarat, Haryana, Punjab, Uttar Pradesh, Uttarakhand & Telangana), London, England",
     website: "www.bpp.com",
     image: "/colleges/BPP_University_a1705f4c7f.png",
@@ -527,7 +527,7 @@ export const university = [
   },
   {
     id: 105,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) Royal Veterinary College, University of London (UG Transfer Programs), London, England",
     website:
       "www.oncampus.global/uk/campuses/oncampus-london/royal-veterinary-college/about.htm",
@@ -581,7 +581,7 @@ export const university = [
   },
   {
     id: 817,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Waikato Institute of Technology (Wintec) - Te Pūkenga",
     website: "https://www.wintec.ac.nz/ ",
     image: "/colleges/Waikato_Institute_of_Technology_Wintec_fe014b79eb.png",
@@ -595,7 +595,7 @@ export const university = [
   },
   {
     id: 287,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Victoria University of Wellington, Wellington",
     website: "www.victoria.ac.nz",
     image:
@@ -626,7 +626,7 @@ export const university = [
   },
   {
     id: 777,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "University of Auckland, Auckland",
     website: "https://www.auckland.ac.nz/en.html ",
     image: "/colleges/The_University_of_Auckland_logo_300x300_0f2b8ec0e4.jpg",
@@ -647,7 +647,7 @@ export const university = [
   },
   {
     id: 784,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The Engineering & Design Institute of London (TEDI-London), England",
     website: "https://tedi-london.ac.uk/",
     image:
@@ -669,7 +669,7 @@ export const university = [
   },
   {
     id: 293,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Unitec Institute of Technology - Te Pūkenga, Auckland",
     website: "www.unitec.ac.nz",
     image: "/colleges/Unitec_Institute_of_Technology_Auckland_ccfbf57e50.svg",
@@ -699,7 +699,7 @@ export const university = [
   },
   {
     id: 820,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Bishop Grosseteste University",
     website: "https://www.bgu.ac.uk/ ",
     image: "/colleges/Bishop_Grosseteste_University_UK_140374d759.png",
@@ -721,7 +721,7 @@ export const university = [
   },
   {
     id: 8,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Glasgow, Glasgow, Scotland",
     website: "www.gla.ac.uk",
     image: "/colleges/University_of_Glasgow_Glasgow_Scotland_dc7fdead67.svg",
@@ -757,7 +757,7 @@ export const university = [
   },
   {
     id: 856,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "ATMC NZ",
     website: "http://www.atmc.education/",
     image: "/colleges/ATMC_New_Zealand_Auckland_325af8e0fc.png",
@@ -831,7 +831,7 @@ export const university = [
   },
   {
     id: 802,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Robert Gordon University, Aberdeen, Scotland",
     website: "https://www.rgu.ac.uk/",
     image: "/colleges/Uni_1_9d0e1bfc73.png",
@@ -931,7 +931,7 @@ export const university = [
   },
   {
     id: 861,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Tai Poutini Polytechnic - Te Pūkenga, Auckland",
     website: "https://www.tpp.ac.nz/",
     image:
@@ -946,7 +946,7 @@ export const university = [
   },
   {
     id: 862,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Open Polytechnic of New Zealand- Te Pūkenga, Wellington",
     website: "https://www.openpolytechnic.ac.nz/",
     image:
@@ -975,7 +975,7 @@ export const university = [
   },
   {
     id: 828,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "The Universal College of Learning (UCOL)-Te Pūkenga, Palmerston North",
     website: "https://www.ucol.ac.nz/",
     image: "/colleges/UCOL_c42f6247e7.png",
@@ -997,7 +997,7 @@ export const university = [
   },
   {
     id: 864,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Goldsmiths, University of London, London, England",
     website: "https://www.gold.ac.uk/",
     image:
@@ -1027,7 +1027,7 @@ export const university = [
   },
   {
     id: 28,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Royal Holloway, University of London, Egham, England",
     website: "www.royalholloway.ac.uk/",
     image:
@@ -1042,7 +1042,7 @@ export const university = [
   },
   {
     id: 292,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Auckland University of Technology, Auckland",
     website: "www.aut.ac.nz",
     image:
@@ -1057,7 +1057,7 @@ export const university = [
   },
   {
     id: 298,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Nelson Marlborough Institute of Technology (NMIT) - Te Pūkenga, Nelson & Blenheim",
     website: "www.nmit.ac.nz",
     image:
@@ -1072,7 +1072,7 @@ export const university = [
   },
   {
     id: 309,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Whitecliffe College of Fashion and Sustainability, Auckland & Wellington",
     website: "www.whitecliffe.ac.nz/fashion-sustainability/",
     image:
@@ -1088,7 +1088,7 @@ export const university = [
   },
   {
     id: 310,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Whitecliffe College of Technology & Innovation, Auckland, Wellington & Christchurch",
     website: "www.whitecliffe.ac.nz/technology-innovation/",
     image:
@@ -1103,7 +1103,7 @@ export const university = [
   },
   {
     id: 96,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(Navitas) Robert Gordon University, Aberdeen, Scotland",
     website: "www.icrgu.navitas.com",
     image:
@@ -1186,7 +1186,7 @@ export const university = [
   },
   {
     id: 12,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The University of Sheffield, Sheffield, England",
     website: "www.sheffield.ac.uk/",
     image:
@@ -1201,7 +1201,7 @@ export const university = [
   },
   {
     id: 13,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Nottingham, Nottingham, England",
     website: "www.nottingham.ac.uk/",
     image:
@@ -1209,14 +1209,14 @@ export const university = [
   },
   {
     id: 14,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Cranfield University, Cranfield, England",
     website: "www.cranfield.ac.uk",
     image: "/colleges/Cranfield_University_Cranfield_England_ddf7c68f6b.svg",
   },
   {
     id: 15,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Queen Mary University of London, London, England",
     website: "www.qmul.ac.uk",
     image:
@@ -1224,21 +1224,21 @@ export const university = [
   },
   {
     id: 16,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Lancaster University, Lancaster, England",
     website: "www.lancaster.ac.uk/",
     image: "/colleges/Image_7_8438109574.svg",
   },
   {
     id: 11,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Leeds, Leeds, England",
     website: "www.leeds.ac.uk/",
     image: "/colleges/University_of_Leeds_Leeds_England_0091c6e800.svg",
   },
   {
     id: 17,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Newcastle University, Newcastle upon Tyne, England",
     website: "www.ncl.ac.uk",
     image:
@@ -1246,7 +1246,7 @@ export const university = [
   },
   {
     id: 20,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of York, York, England",
     website: "www.york.ac.uk/",
     image: "/colleges/University_of_York_York_England_01cbda1517.svg",
@@ -1260,7 +1260,7 @@ export const university = [
   },
   {
     id: 36,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Stirling, Stirling, Scotland",
     website: "www.stir.ac.uk",
     image:
@@ -1268,7 +1268,7 @@ export const university = [
   },
   {
     id: 43,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Portsmouth, Portsmouth, England",
     website: "www.port.ac.uk",
     image:
@@ -1284,14 +1284,14 @@ export const university = [
   },
   {
     id: 22,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Aberdeen, Aberdeen, Scotland",
     website: "www.abdn.ac.uk/",
     image: "/colleges/University_of_Aberdeen_Aberdeen_Scotland_45bf81764b.svg",
   },
   {
     id: 23,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Queen`s University Belfast, Belfast, Northern Ireland",
     website: "www.qub.ac.uk",
     image:
@@ -1299,21 +1299,21 @@ export const university = [
   },
   {
     id: 24,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Leicester, Leicester, England",
     website: "www.le.ac.uk",
     image: "/colleges/University_of_Leicester_Leicester_England_5f8a873744.svg",
   },
   {
     id: 25,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Surrey , Guildford, England",
     website: "www.surrey.ac.uk",
     image: "/colleges/University_of_Surrey_Guildford_England_b1d9a4b6f8.svg",
   },
   {
     id: 26,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Strathclyde , Glasgow, Scotland",
     website: "www.strath.ac.uk",
     image:
@@ -1321,56 +1321,56 @@ export const university = [
   },
   {
     id: 27,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Heriot Watt University, Edinburgh, Scotland",
     website: "www.hw.ac.uk",
     image: "/colleges/Heriot_Watt_University_Edinburgh_Scotland_8ac1c2fd68.svg",
   },
   {
     id: 29,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Dundee, Dundee, Scotland",
     website: "www.dundee.ac.uk",
     image: "/colleges/University_of_Dundee_Dundee_Scotland_3e54363b35.svg",
   },
   {
     id: 31,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Brunel University London, London, England",
     website: "www.brunel.ac.uk/",
     image: "/colleges/Brunel_University_London_Uxbridge_England_8ba59f52cd.png",
   },
   {
     id: 32,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Oxford Brookes University, Oxford, England",
     website: "www.brookes.ac.uk",
     image: "/colleges/Oxford_Brookes_University_Oxford_England_fcbfa52e61.png",
   },
   {
     id: 33,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Essex, Colchester, England",
     website: "www.essex.ac.uk/about/colchester/",
     image: "/colleges/University_of_Essex_Colchester_England_312eb42663.png",
   },
   {
     id: 34,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Swansea University, Swansea, Wales",
     website: "www.swansea.ac.uk",
     image: "/colleges/Swansea_University_Swansea_Wales_315b9f36b0.png",
   },
   {
     id: 37,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Aston University, Birmingham, England",
     website: "www.aston.ac.uk/",
     image: "/colleges/Aston_University_Birmingham_England_de4ea1515f.png",
   },
   {
     id: 49,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The University of Huddersfield, Huddersfield, England",
     website: "www.hud.ac.uk",
     image:
@@ -1378,7 +1378,7 @@ export const university = [
   },
   {
     id: 39,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Coventry University, Coventry & London, England",
     website: "www.coventry.ac.uk",
     image:
@@ -1386,28 +1386,28 @@ export const university = [
   },
   {
     id: 40,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Kingston University, Kingston, England",
     website: "www.kingston.ac.uk",
     image: "/colleges/Kingston_University_Kingston_England_25d43b42f6.png",
   },
   {
     id: 41,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Bangor University, Bangor, Wales",
     website: "www.bangor.ac.uk",
     image: "/colleges/Bangor_University_Bangor_Wales_cfa6ec1efd.png",
   },
   {
     id: 42,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Bradford, Bradford, England",
     website: "www.bradford.ac.uk",
     image: "/colleges/University_of_Bradford_Bradford_England_e77faf9c74.png",
   },
   {
     id: 44,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Northumbria University, Newcastle upon Tyne & London, England",
     website: "www.northumbria.ac.uk",
     image:
@@ -1415,35 +1415,35 @@ export const university = [
   },
   {
     id: 45,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Plymouth, Plymouth, England",
     website: "www.plymouth.ac.uk",
     image: "/colleges/University_of_Plymouth_Plymouth_England_a81e5c3c2f.png",
   },
   {
     id: 46,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Westminster, London, England",
     website: "www.westminster.ac.uk",
     image: "/colleges/University_of_Westminster_London_England_5343dae1a0.png",
   },
   {
     id: 47,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Middlesex University, London, England",
     website: "www.mdx.ac.uk",
     image: "/colleges/Middlesex_University_London_England_853abca45a.png",
   },
   {
     id: 48,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Greenwich, London, England",
     website: "www.gre.ac.uk",
     image: "/colleges/University_of_Greenwich_London_England_b98844806f.png",
   },
   {
     id: 19,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The University of Exeter, Exeter, England",
     website: "www.exeter.ac.uk/",
     image:
@@ -1451,21 +1451,21 @@ export const university = [
   },
   {
     id: 50,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Bournemouth University, Poole, England",
     website: "www.bournemouth.ac.uk",
     image: "/colleges/Bournemouth_University_Poole_England_e0ddf4b808.png",
   },
   {
     id: 51,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Keele University, Keele, England",
     website: "www.keele.ac.uk/",
     image: "/colleges/Keele_University_Keele_England_dba977381a.png",
   },
   {
     id: 52,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Nottingham Trent University , Nottingham, England",
     website: "www.ntu.ac.uk",
     image:
@@ -1533,7 +1533,7 @@ export const university = [
   },
   {
     id: 10,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Birmingham, Birmingham, England",
     website: "www.birmingham.ac.uk",
     image:
@@ -1541,14 +1541,14 @@ export const university = [
   },
   {
     id: 736,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Southampton, Southampton, England",
     website: "https://www.southampton.ac.uk/",
     image: "/colleges/southampton_c89a848ca0.jfif",
   },
   {
     id: 67,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Staffordshire University, Stoke-on-Trent, England",
     website: "www.staffs.ac.uk",
     image:
@@ -1556,7 +1556,7 @@ export const university = [
   },
   {
     id: 100,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(Study Group) University of Sussex, Falmer, England",
     website: "isc.sussex.ac.uk/",
     image:
@@ -1564,7 +1564,7 @@ export const university = [
   },
   {
     id: 91,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Hult International Business School, London, England",
     website: "www.hult.edu",
     image:
@@ -1579,7 +1579,7 @@ export const university = [
   },
   {
     id: 53,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Birmingham City University, Birmingham, England",
     website: "www.bcu.ac.uk",
     image:
@@ -1587,7 +1587,7 @@ export const university = [
   },
   {
     id: 57,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Manchester Metropolitan University, Manchester, England",
     website: "www2.mmu.ac.uk",
     image:
@@ -1595,7 +1595,7 @@ export const university = [
   },
   {
     id: 58,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Sheffield Hallam University, Sheffield, England",
     website: "www.shu.ac.uk",
     image:
@@ -1603,14 +1603,14 @@ export const university = [
   },
   {
     id: 59,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Brighton, Brighton, England",
     website: "www.brighton.ac.uk/index.aspx",
     image: "/colleges/University_of_Brighton_Brighton_England_0c326385fe.png",
   },
   {
     id: 60,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Central Lancashire, Preston, England",
     website: "www.uclan.ac.uk",
     image:
@@ -1618,7 +1618,7 @@ export const university = [
   },
   {
     id: 62,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Hertfordshire, Hatfield, England",
     website: "www.herts.ac.uk",
     image:
@@ -1626,21 +1626,21 @@ export const university = [
   },
   {
     id: 61,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of East London, London, England",
     website: "www.uel.ac.uk",
     image: "/colleges/University_of_East_London_London_England_b0e9abf81c.png",
   },
   {
     id: 63,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Salford, Manchester, England",
     website: "www.salford.ac.uk",
     image: "/colleges/University_of_Salford_Manchester_England_5410c8eb99.png",
   },
   {
     id: 64,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of West of England, Bristol, England",
     website: "www.uwe.ac.uk/",
     image:
@@ -1648,14 +1648,14 @@ export const university = [
   },
   {
     id: 66,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of West London, London, England",
     website: "www.uwl.ac.uk/",
     image: "/colleges/University_of_West_London_London_England_c2dcd759d1.png",
   },
   {
     id: 65,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University for the Creative Arts, Farnham, England",
     website: "www.uca.ac.uk",
     image:
@@ -1663,7 +1663,7 @@ export const university = [
   },
   {
     id: 72,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Cardiff Metropolitan University, Cardiff , Wales",
     website: "www.cardiffmet.ac.uk",
     image:
@@ -1671,14 +1671,14 @@ export const university = [
   },
   {
     id: 74,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Solent University, Southampton, England",
     website: "www.qahighereducation.com/solent-university-pathway",
     image: "/colleges/Solent_University_Southampton_England_0150716709.png",
   },
   {
     id: 75,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Anglia Ruskin University, Cambridge & Chelmsford, England (Except Punjab and Haryana)",
     website: "www.anglia.ac.uk/",
     image:
@@ -1686,14 +1686,14 @@ export const university = [
   },
   {
     id: 76,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Chester, Chester, England",
     website: "www.chester.ac.uk",
     image: "/colleges/University_of_Chester_Chester_England_283d96670d.png",
   },
   {
     id: 77,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Liverpool Hope University, Liverpool, England",
     website: "www.hope.ac.uk",
     image:
@@ -1701,14 +1701,14 @@ export const university = [
   },
   {
     id: 101,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(Study Group) Bellerbys College, Brighton, England",
     website: "www.bellerbys.com",
     image: "/colleges/bellerbys_logo_a45624d5e6.png",
   },
   {
     id: 79,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Gloucestershire, Gloucester, England",
     website: "www.glos.ac.uk/",
     image:
@@ -1716,7 +1716,7 @@ export const university = [
   },
   {
     id: 80,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The University of Northampton, Northampton, England",
     website: "www.northampton.ac.uk",
     image:
@@ -1724,7 +1724,7 @@ export const university = [
   },
   {
     id: 81,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "The University of Buckingham , Buckingham, England",
     website: "https://www.buckingham.ac.uk/",
     image:
@@ -1732,14 +1732,14 @@ export const university = [
   },
   {
     id: 82,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Suffolk, Suffolk, England",
     website: "www.uos.ac.uk/",
     image: "/colleges/University_of_Suffolk_Suffolk_England_a21e95031c.png",
   },
   {
     id: 83,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Sunderland, Sunderland & London, England",
     website: "www.sunderland.ac.uk",
     image:
@@ -1747,14 +1747,14 @@ export const university = [
   },
   {
     id: 84,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Leeds Beckett University, Leeds, England",
     website: "www.leedsbeckett.ac.uk",
     image: "/colleges/Leeds_Beckett_University_Leeds_England_e49d5ca634.png",
   },
   {
     id: 85,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Wolverhampton, Wolverhampton, England",
     website: "www.wlv.ac.uk",
     image:
@@ -1762,21 +1762,21 @@ export const university = [
   },
   {
     id: 86,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "York St John University, York, England",
     website: "www.yorksj.ac.uk/",
     image: "/colleges/York_St_John_University_York_England_8eb55c332b.png",
   },
   {
     id: 87,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Roehampton, London, England",
     website: "www.roehampton.ac.uk",
     image: "/colleges/University_of_Roehampton_London_England_fbc82b8cd0.png",
   },
   {
     id: 88,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of the West of Scotland, Paisley, Scotland",
     website: "www.uws.ac.uk",
     image:
@@ -1784,14 +1784,14 @@ export const university = [
   },
   {
     id: 89,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Bedfordshire, Luton, England",
     website: "www.beds.ac.uk",
     image: "/colleges/University_of_Bedfordshire_Luton_England_5b386547e0.png",
   },
   {
     id: 90,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University College Birmingham, Birmingham, England (Except students from Punjab and Haryana)",
     website: "www.ucb.ac.uk/",
     image:
@@ -1799,14 +1799,14 @@ export const university = [
   },
   {
     id: 92,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Regent’s University London, London, England",
     website: "www.regents.ac.uk",
     image: "/colleges/Regent_s_University_London_London_England_2ba2747c3d.png",
   },
   {
     id: 94,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Le - Cordon Bleu, London, England",
     website: "www.lcblondon.com",
     image:
@@ -1822,7 +1822,7 @@ export const university = [
   },
   {
     id: 99,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(Study Group) Liverpool John Moores University, Liverpool, England",
     website: "www.ljmuisc.com",
     image:
@@ -1925,7 +1925,7 @@ export const university = [
   },
   {
     id: 291,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Lincoln University, Lincoln",
     website: "www.lincoln.ac.nz",
     image: "/colleges/Lincoln_University_Lincoln_7123ab89d0.svg",
@@ -1954,7 +1954,7 @@ export const university = [
   },
   {
     id: 73,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of East Anglia, Norwich, England",
     website: "www.uea.ac.uk/",
     image: "/colleges/University_of_East_Anglia_Norwich_England_f748a997f7.png",
@@ -1983,7 +1983,7 @@ export const university = [
   },
   {
     id: 55,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Edinburgh Napier University, Edinburgh, Scotland",
     website: "www.napier.ac.uk",
     image:
@@ -1991,7 +1991,7 @@ export const university = [
   },
   {
     id: 106,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) Goldsmiths, University of London (UG & PG Transfer Programs), London, England",
     website:
       "www.oncampus.global/uk/campuses/oncampus-london/goldsmiths/about.htm",
@@ -2000,14 +2000,14 @@ export const university = [
   },
   {
     id: 114,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University Academy 92, Manchester, England",
     website: "ua92.ac.uk/",
     image: "/colleges/University_Academy_92_Manchester_England_407b8eda21.png",
   },
   {
     id: 107,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) University of Hull (UG & PG Transfer Programs), Hull, England",
     website: "www.oncampus.global/uk/campuses/oncampus-hull/welcome.htm",
     image: "/colleges/University_of_Hull_arms_bf7472fdc7.png",
@@ -2021,7 +2021,7 @@ export const university = [
   },
   {
     id: 116,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Cambridge School of Visual & Performing Arts (CSVPA), Cambridge, England",
     website: "www.csvpa.com",
     image:
@@ -2029,7 +2029,7 @@ export const university = [
   },
   {
     id: 95,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Istituto Marangoni, London, England",
     website: "www.istitutomarangoni.com/en/campuses/london",
     image: "/colleges/Istituto_Marangoni_London_England_abd8b93197.png",
@@ -2087,7 +2087,7 @@ export const university = [
   },
   {
     id: 746,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Loughborough University, Loughborough & London, England",
     website: "https://www.lboro.ac.uk/",
     image: "/colleges/Loughborough_University_f844e7746f.jpg",
@@ -2153,7 +2153,7 @@ export const university = [
   },
   {
     id: 9,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Durham University, Durham, England",
     website: "www.dur.ac.uk/",
     image: "/colleges/Durham_University_Durham_England_5fd71d730a.svg",
@@ -2168,7 +2168,7 @@ export const university = [
   },
   {
     id: 109,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) University of Reading (UG & PG Transfer Programs), Reading, England",
     website: "www.oncampus.global/uk/campuses/oncampus-reading/welcome.htm",
     image:
@@ -2287,7 +2287,7 @@ export const university = [
   },
   {
     id: 71,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Teesside University, Middlesbrough, England (Except students from Namakkal & Punjab) and London Campus",
     website: "www.tees.ac.uk",
     image: "/colleges/Teesside_University_Middlesbrough_England_6bce4ce3aa.png",
@@ -2799,7 +2799,7 @@ export const university = [
   },
   {
     id: 290,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "University of Waikato College, Hamilton,",
     website: "www.waikato.ac.nz",
     image:
@@ -2807,35 +2807,35 @@ export const university = [
   },
   {
     id: 314,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Taylors College, Auckland",
     website: "www.taylorscollege.edu.au",
     image: "/colleges/Taylors_College_Auckland_05e7e2aca6.svg",
   },
   {
     id: 288,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "University of Canterbury, Christchurch",
     website: "www.canterbury.ac.nz",
     image: "/colleges/University_of_Canterbury_Christchurch_a285435a16.svg",
   },
   {
     id: 303,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "North Tec - Te Pūkenga, Whangarei",
     website: "www.northtec.ac.nz",
     image: "/colleges/North_Tec_Whangarei_7093531f74.svg",
   },
   {
     id: 289,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Massey University, Palmerston North",
     website: "www.massey.ac.nz/",
     image: "/colleges/Massey_University_Palmerston_North_0ea055061f.svg",
   },
   {
     id: 104,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) The Courtauld University of Art (UG & PG Transfer Programs), London, England",
     website:
       "www.oncampus.global/uk/campuses/oncampus-london/the-courtauld/about.htm",
@@ -2843,14 +2843,14 @@ export const university = [
   },
   {
     id: 299,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Whitireia New Zealand - Te Pūkenga, Porirua",
     website: "www.whitireia.ac.nz",
     image: "/colleges/Whitireia_New_Zealand_Porirua_Copy_Copy_8db452c5be.svg",
   },
   {
     id: 301,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Wellington Institute of Technology (WelTec) - Te Pūkenga, Wellington ",
     website: "www.weltec.ac.nz",
     image: "/colleges/Image_7_6dcfe5edce.svg",
@@ -2981,7 +2981,7 @@ export const university = [
   },
   {
     id: 54,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "De MontFort University, Leicester, England (Except students from Gujarat)",
     website: "www.dmu.ac.uk",
     image:
@@ -2989,7 +2989,7 @@ export const university = [
   },
   {
     id: 300,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Southern Institute of Technology- Te Pūkenga, Invercargill",
     website: "www.sit.ac.nz",
     image:
@@ -3018,14 +3018,14 @@ export const university = [
   },
   {
     id: 315,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "New Zealand Airline Academy, Oamaru",
     website: "www.nzaal.co.nz",
     image: "/colleges/New_Zealand_Airline_Academy_Oamaru_603fd74c22.svg",
   },
   {
     id: 306,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Pacific International Hotel Management School, New Plymouth",
     website: "www.pihms.ac.nz",
     image:
@@ -3041,7 +3041,7 @@ export const university = [
   },
   {
     id: 307,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "UC International College, Christchurch",
     website: "www.ucic.ac.nz",
     image: "/colleges/1508728311537_UC_7_logo_low_6783c870fb.svg",
@@ -3129,14 +3129,14 @@ export const university = [
   },
   {
     id: 296,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Ara Institute of Canterbury - Te Pūkenga, Christchurch",
     website: "www.ara.ac.nz",
     image: "/colleges/Ara_Institute_of_Canterbury_Christchurch_b5abf6a39f.svg",
   },
   {
     id: 302,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Western Institute of Technology at Taranaki (WITT) - Te Pūkenga, New Plymouth ",
     website: "www.witt.ac.nz",
     image:
@@ -3144,7 +3144,7 @@ export const university = [
   },
   {
     id: 308,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Whitecliffe College of Arts and Design, Auckland & Christchurch",
     website: "www.whitecliffe.ac.nz",
     image:
@@ -3152,21 +3152,21 @@ export const university = [
   },
   {
     id: 295,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Manukau Institute of Technology - Te Pūkenga, Auckland",
     website: "www.manukau.ac.nz",
     image: "/colleges/Manukau_Institute_of_Technology_Auckland_1877333a92.svg",
   },
   {
     id: 311,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Aspire2International Group, Auckland, Wellington, Tauranga & Christchurch",
     website: "www.ntec.ac.nz",
     image: "/colleges/7cd7f3f1_0a39_4c57_ab72_8357d153f2a7_7008962d12.svg",
   },
   {
     id: 312,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Le Cordon Bleu, Wellington",
     website: "www.cordonbleu.edu/new-zealand/welcome-to-new-zealand/en",
     image: "/colleges/Le_Cordon_Bleu_Wellington_a3b8129001.svg",
@@ -3204,7 +3204,7 @@ export const university = [
   },
   {
     id: 737,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Aberystwyth University, Aberystwyth, Wales",
     website: "https://www.aber.ac.uk/",
     image: "/colleges/Aberystwyth_University_Aberystwyth_Wales_a3f4d1aa07.jpg",
@@ -3226,7 +3226,7 @@ export const university = [
   },
   {
     id: 294,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Otago Polytechnic- Te Pūkenga, Dunedin & Auckland",
     website: "www.otagopolytechnic.ac.nz",
     image: "/colleges/Otago_Polytechnic_Dunedin_and_Auckland_6a882152b8.svg",
@@ -3307,14 +3307,14 @@ export const university = [
   },
   {
     id: 297,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Eastern Institute of Technology- Te Pūkenga, Napier",
     website: "www.eit.ac.nz",
     image: "/colleges/Eastern_Institute_of_Technology_Napier_6b38dae44e.svg",
   },
   {
     id: 738,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Canterbury Christ Church University, Canterbury, England",
     website: "https://www.canterbury.ac.uk/",
     image:
@@ -3675,7 +3675,7 @@ export const university = [
   },
   {
     id: 739,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Abertay University, Dundee, Scotland",
     website: "https://www.abertay.ac.uk/",
     image: "/colleges/Abertay_University_Logo_svg_8ac61e8875.png",
@@ -4007,7 +4007,7 @@ export const university = [
   },
   {
     id: 740,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Norwich University of Arts, Norwich, England",
     website: "https://www.nua.ac.uk/",
     image:
@@ -4340,7 +4340,7 @@ export const university = [
   },
   {
     id: 752,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "Regent’s College London, Middlesex, England ",
     website: "https://www.rcl.ac.uk/",
     image: "/colleges/Regent_s_College_London_min_c65ee30484.png",
@@ -4531,14 +4531,14 @@ export const university = [
   },
   {
     id: 753,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "St George's University of London, London, England  ",
     website: "https://www.sgul.ac.uk/ ",
     image: "/colleges/St_George_s_University_of_London_min_2dc97fb49a.jpg",
   },
   {
     id: 103,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "(On Campus) Birkbeck, University of London (UG & PG Transfer Programs), London, England",
     website:
       "www.oncampus.global/uk/campuses/oncampus-london/birkbeck/about.htm",
@@ -4889,7 +4889,7 @@ export const university = [
   },
   {
     id: 741,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Winchester, Winchester, England",
     website: "https://www.winchester.ac.uk/",
     image:
@@ -4934,7 +4934,7 @@ export const university = [
   },
   {
     id: 304,
-    country: "NewZealand",
+    country: "New Zealand",
     name: "Toi Ohomai Institute of Technology - Te Pūkenga, Rotorua & Tauranga ",
     website: "https://www.toiohomai.ac.nz/",
     image:
@@ -5288,7 +5288,7 @@ export const university = [
   },
   {
     id: 7,
-    country: "UnitedKingdom",
+    country: "United Kingdom",
     name: "University of Bristol, Bristol, England",
     website: "www.bristol.ac.uk",
     image: "/colleges/University_of_Bristol_Bristol_England_49a7fe13d6.svg",
@@ -5296,7 +5296,7 @@ export const university = [
   {
     id: 663,
     country: "Switzerland",
-    name: "International Management Institute (IMI), ‎Kastanienbaum, Luzern",
+    name: "International Management Institute (IMI), Kastanienbaum, Luzern",
     website: "imi-luzern.com/",
     image: "/colleges/International_Management_Institute_c4c1506868.png",
   },
