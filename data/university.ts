@@ -505,7 +505,7 @@ export const university = [
     id: 795,
     country: "Canada",
     name: "Memorial University of Newfoundland, Grenfell Campus, Newfoundland and Labrador (Only UG)",
-    website: "https://www.grenfell.mun.ca/Pages/home.aspx ",
+    website: "https://www.grenfell.mun.ca ",
     image:
       "/colleges/Memorial_University_of_Newfoundland_Grenfell_Campus_63650d4158.png",
   },
@@ -528,9 +528,8 @@ export const university = [
   {
     id: 105,
     country: "United Kingdom",
-    name: "(On Campus) Royal Veterinary College, University of London (UG Transfer Programs), London, England",
-    website:
-      "www.oncampus.global/uk/campuses/oncampus-london/royal-veterinary-college/about.htm",
+    name: "Royal Veterinary College, University of London, London, England",
+    website: "www.oncampus.global",
     image: "/colleges/Courtauld_logo_f1e907b341.png",
   },
   {
@@ -1992,9 +1991,8 @@ export const university = [
   {
     id: 106,
     country: "United Kingdom",
-    name: "(On Campus) Goldsmiths, University of London (UG & PG Transfer Programs), London, England",
-    website:
-      "www.oncampus.global/uk/campuses/oncampus-london/goldsmiths/about.htm",
+    name: "Goldsmiths, University of London (UG & PG Transfer Programs), London, England",
+    website: "www.oncampus.global",
     image:
       "/colleges/University_of_London_Coat_of_Arms_for_Goldsmiths_College_cc0e8267be.png",
   },
@@ -2008,8 +2006,8 @@ export const university = [
   {
     id: 107,
     country: "United Kingdom",
-    name: "(On Campus) University of Hull (UG & PG Transfer Programs), Hull, England",
-    website: "www.oncampus.global/uk/campuses/oncampus-hull/welcome.htm",
+    name: "University of Hull (UG & PG Transfer Programs), Hull, England",
+    website: "www.oncampus.global",
     image: "/colleges/University_of_Hull_arms_bf7472fdc7.png",
   },
   {
@@ -2031,7 +2029,7 @@ export const university = [
     id: 95,
     country: "United Kingdom",
     name: "Istituto Marangoni, London, England",
-    website: "www.istitutomarangoni.com/en/campuses/london",
+    website: "www.istitutomarangoni.com",
     image: "/colleges/Istituto_Marangoni_London_England_abd8b93197.png",
   },
   {
@@ -2170,7 +2168,7 @@ export const university = [
     id: 109,
     country: "United Kingdom",
     name: "(On Campus) University of Reading (UG & PG Transfer Programs), Reading, England",
-    website: "www.oncampus.global/uk/campuses/oncampus-reading/welcome.htm",
+    website: "www.oncampus.global",
     image:
       "/colleges/On_Campus_University_of_Reading_UG_and_PG_Transfer_Programs_Reading_England_93eb9e5820.png",
   },
@@ -2836,9 +2834,8 @@ export const university = [
   {
     id: 104,
     country: "United Kingdom",
-    name: "(On Campus) The Courtauld University of Art (UG & PG Transfer Programs), London, England",
-    website:
-      "www.oncampus.global/uk/campuses/oncampus-london/the-courtauld/about.htm",
+    name: "The Courtauld University of Art (UG & PG Transfer Programs), London, England",
+    website: "www.oncampus.global/",
     image: "/colleges/Courtauld_logo_f1e907b341.png",
   },
   {
@@ -2889,7 +2886,7 @@ export const university = [
     id: 267,
     country: "Australia",
     name: "The University of Newcastle College of International Education, Newcastle (CRICOS 00109J)",
-    website: "internationalcollege.newcastle.edu.au/contact.html",
+    website: "internationalcollege.newcastle.edu.au",
     image: "/colleges/The_University_of_Adelaide_3df860ff77.svg",
   },
   {
@@ -4539,9 +4536,8 @@ export const university = [
   {
     id: 103,
     country: "United Kingdom",
-    name: "(On Campus) Birkbeck, University of London (UG & PG Transfer Programs), London, England",
-    website:
-      "www.oncampus.global/uk/campuses/oncampus-london/birkbeck/about.htm",
+    name: "Birkbeck, University of London (UG & PG Transfer Programs), London, England",
+    website: "www.oncampus.global",
     image: "/colleges/Birkbeck_University_of_London_crest_svg_14ad7c37cf.png",
   },
   {

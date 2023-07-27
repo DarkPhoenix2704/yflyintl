@@ -41,7 +41,7 @@ const UniverityPage = () => {
         <h1 className="text-4xl text-center font-semibold text-white">
           Select Your Study Destination
         </h1>
-        <p className="text-white">
+        <p className="text-white text-center">
           Choose from our list of top universities in the world
         </p>
         <Listbox
@@ -76,7 +76,7 @@ const UniverityPage = () => {
             </h1>
             <input
               type="text"
-              className="w-10/12 h-12 mt-4 rounded-md px-4 bg-slate-100 shadow-sm"
+              className="w-11/12 md:w-10/12 h-12 mt-4 rounded-md px-4 bg-slate-100 shadow-sm"
               placeholder="Search for a university"
               onChange={(e) => setSearch(e.target.value)}
             />
@@ -84,12 +84,20 @@ const UniverityPage = () => {
           <div className="flex flex-col items-center mt-2 gap-4">
             {availableUniversities &&
               availableUniversities.map((val) => (
-                <Link href={val.website} key={val.id} className="w-10/12">
+                <Link
+                  href={val.website}
+                  key={val.id}
+                  className="w-11/12 lg:w-10/12"
+                >
                   <div className="flex flex-row  py-4 items-center gap-4 px-4 rounded-md bg-slate-50 hover:drop-shadow-md">
-                    <img src={val.image} alt={val.name} className="w-20 h-20" />
+                    <img
+                      src={val.image}
+                      alt={val.name}
+                      className="w-[40px] h-[40px]"
+                    />
                     <div className="flex flex-col">
                       <h1 className="text-lg font-semibold">{val.name}</h1>
-                      <p className="text-sm">{val.website}</p>
+                      <p className="text-sm text-clip">{val.website}</p>
                     </div>
                   </div>
                 </Link>
