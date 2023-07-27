@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 32 32">
+      <image width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEUSem8UiHwVjYEVjoEVjoEVjoEVjoEVjoEVjoEVjoEWj4EVjoEVjoEVjoEVjoEVjoEVjoEVjoEVjoEVjoEWj4ERjLV1AAAAFHRSTlMAAgUVCgwiN0xicYGfuMfY6vn89NGwVBcAAAD3SURBVBgZ5cHZcaUwAADBKRC6JVAx+cdqjJ/3cxNwN39L4H9Sv1yzAHt9lbTxiLVWHs0fDbIfVwGqnkDzYx00f60EXTvEpXcpS010/+kwtUFVG/Q5Z+RUY0hDHXBrhq6emVdQLyCpg6hGqH4biUdSB5DVRtYbOE5fPUBRG2xTV6Tp5LEPXx262ms71QZdO6/U/bYz1eJjNeDUCrmUEkhLjdy6tlNNQFiaYKk74dZ7i+qkqQ1I6g5L7Xmonax2knoCRS9g+rEiTa0w1QRNB5CXrzvDUBNUtcPQxiONW88WgUvdYVfvwKWFH2HjdTx4hOM44DiOjb/iC4Y7GDbDuGjrAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="cropped-Favicon-1-32x32" stroke="#fff" stroke-width="0.5" fill="url(#pattern)">
+    <rect width="70" height="70" stroke="none"/>
+    <rect x="0.25" y="0.25" width="69.5" height="69.5" fill="none"/>
+  </g>
+</svg>
