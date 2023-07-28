@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { destinations } from "@app/data/destinations";
+import { services } from "@app/data/services";
 import Link from "next/link";
 import { HiOutlineMail, HiPhone } from "react-icons/hi";
 import { IoLogoInstagram, IoLogoTwitter } from "react-icons/io";
@@ -35,16 +36,14 @@ export const Footer = () => {
         <div className="flex flex-col">
           <h1 className="text-lg font-semibold">Student Services</h1>
           <div className="flex flex-col gap-2 mt-2 text-[#7f7f8f]">
-            <p className="hover:text-white cursor-pointer">Counselling</p>
-            <p className="hover:text-white cursor-pointer">Test Preparation</p>
-            <p className="hover:text-white cursor-pointer">
-              University Delection
-            </p>
-            <p className="hover:text-white cursor-pointer">Admission Process</p>
-            <p className="hover:text-white cursor-pointer">Scholarships</p>
-            <p className="hover:text-white cursor-pointer">Internships</p>
-            <p className="hover:text-white cursor-pointer">Education Load</p>
-            <p className="hover:text-white cursor-pointer">Visa Guidance</p>
+            {services.map((service) => (
+              <Link key={service.name} href={service.path}>
+                <p className="hover:text-white cursor-pointer">
+                  {service.name}
+                </p>
+              </Link>
+            ))}
+
             <Link
               href="/university"
               className="hover:text-white cursor-pointer"
