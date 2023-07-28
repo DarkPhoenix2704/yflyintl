@@ -160,37 +160,77 @@ export const Navbar = () => {
           />
         )}
       </div>
-      {show && (
-        <div className="w-full h-[100vh] gap-16 flex flex-col  justify-center items-center sticky z-[3] bg-[#226cf5]">
-          <Link href="/">
-            <Image
-              src="/logo_white.png"
-              width={250}
-              height={100}
-              alt="YFly Logo"
-            />
+      <div
+        className={`flex gap-16 transition-all flex-col justify-center items-center sticky bg-[#226cf5] ${
+          show ? "z-[3] h-[100vh]" : "z-[-1] h-0 opacity-0"
+        }`}
+      >
+        <Link href="/">
+          <Image
+            src="/logo_white.png"
+            width={250}
+            height={100}
+            alt="YFly Logo"
+          />
+        </Link>
+        <div className="flex flex-col text-white space-y-4 items-center ">
+          <Link
+            href="/"
+            className="text-lg font-semibold"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            Home
           </Link>
-          <div className="flex flex-col text-white space-y-4 items-center ">
-            <Link href="#" className="text-lg font-semibold">
-              Home
+          <Link
+            href="/university"
+            className="text-lg font-semibold"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            Universities
+          </Link>
+          <Link
+            href="/services"
+            className="text-lg font-semibold"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            Services
+          </Link>
+          <Link
+            href="/country"
+            className="text-lg font-semibold"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            Study Destinations
+          </Link>
+          <Link
+            href="/contact"
+            className="text-lg font-semibold"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            Contact Us
+          </Link>
+          <button
+            className="bg-gradient-to-r from-[#fdaf4d] to-[#ff6a56] text-white font-semibold rounded-md px-6 py-2"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
             </Link>
-            <Link href="#" className="text-lg font-semibold">
-              About Us
-            </Link>
-            <Link href="#" className="text-lg font-semibold">
-              Services
-            </Link>
-            <Link href="#" className="text-lg font-semibold">
-              Contact
-            </Link>
-            <button className="bg-gradient-to-r from-[#fdaf4d] to-[#ff6a56] text-white font-semibold rounded-md px-6 py-2">
-              <Link href="https://registration.yflyinternational.com/">
-                Enquire Now
-              </Link>
-            </button>
-          </div>
+          </button>
         </div>
-      )}
+      </div>
     </>
   );
 };
