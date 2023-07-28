@@ -44,7 +44,7 @@ const ContactPage = () => {
           <Link href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
           </Link>
-          <Link href={`/country`}>
+          <Link href={`/`}>
             <span className="font-semibold text-white">&nbsp;Contact Us</span>
           </Link>
         </div>
