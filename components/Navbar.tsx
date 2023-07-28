@@ -139,7 +139,7 @@ export const Navbar = () => {
               </>
             )}
           </Popover>
-          <Link href="#" className="text-lg font-medium">
+          <Link href="/contact" className="text-lg font-medium">
             Contact
           </Link>
           <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2">
