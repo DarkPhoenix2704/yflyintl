@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import MapComponent from "@app/components/MapComponent";
 
 const ContactPage = () => {
   const [name, setName] = useState<string | null>(null);
@@ -55,77 +56,91 @@ const ContactPage = () => {
           possible
         </p>
       </div>
-      <form
-        onSubmit={handleSubmit}
-        className="flex flex-col w-full items-center"
-      >
-        <input
-          className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
-          placeholder="Name"
-          required
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
-        />
-        <input
-          className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
-          placeholder="Email"
-          type="email"
-          required
-          onChange={(e) => {
-            setEmail(e.target.value);
-          }}
-        />
-        <input
-          className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
-          placeholder="Subject"
-          required
-          onChange={(e) => {
-            setSubject(e.target.value);
-          }}
-        />
-        <textarea
-          className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[200px] mt-8 px-4 py-4 rounded-md"
-          placeholder="Message"
-          required
-          onChange={(e) => {
-            setMessage(e.target.value);
-          }}
-        />
-        <button
-          type="submit"
-          className="w-11/12 lg:w-[550px] bg-[#6c48f0] flex items-center justify-center text-white h-[50px] mt-8 px-4 rounded-md"
-        >
-          {loading ? (
-            <>
-              <svg
-                className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <circle
-                  className="opacity-25"
-                  cx="12"
-                  cy="12"
-                  r="10"
-                  stroke="currentColor"
-                  stroke-width="4"
-                ></circle>
-                <path
-                  className="opacity-75"
-                  fill="currentColor"
-                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                ></path>
-              </svg>
-            </>
-          ) : success ? (
-            "Email Sent"
-          ) : (
-            "Send Message"
-          )}
-        </button>
-      </form>
+      <div className="flex flex-col w-11/12 lg:flex-row justify-center items-center mt-8">
+        <div className="w-full lg:w-1/2 flex flex-col items-left">
+          <h1 className="text-xl font-semibold">Our Location</h1>
+          <p className="text-md mt- text-[#7f7f8f]">
+            PVM Heights, One Way Junction,
+            <br />
+            Muvattupuzha Kerala
+          </p>
+          <MapComponent />
+        </div>
+
+        <div className="w-full lg:w-1/2 flex flex-col items-center">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col w-full items-center"
+          >
+            <input
+              className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
+              placeholder="Name"
+              required
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
+            <input
+              className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
+              placeholder="Email"
+              type="email"
+              required
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+            />
+            <input
+              className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[50px] mt-8 px-4 rounded-md"
+              placeholder="Subject"
+              required
+              onChange={(e) => {
+                setSubject(e.target.value);
+              }}
+            />
+            <textarea
+              className="w-11/12 lg:w-[550px] outline-slate-200 outline-1 border-slate-200 border-2 h-[200px] mt-8 px-4 py-4 rounded-md"
+              placeholder="Message"
+              required
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+            />
+            <button
+              type="submit"
+              className="w-11/12 lg:w-[550px] bg-[#6c48f0] flex items-center justify-center text-white h-[50px] mt-8 px-4 rounded-md"
+            >
+              {loading ? (
+                <>
+                  <svg
+                    className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      stroke-width="4"
+                    ></circle>
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    ></path>
+                  </svg>
+                </>
+              ) : success ? (
+                "Email Sent"
+              ) : (
+                "Send Message"
+              )}
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
