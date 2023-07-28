@@ -36,6 +36,9 @@ export const Navbar = () => {
           <Link href="/" className="text-lg font-medium">
             Home
           </Link>
+          <Link href="/university" className="text-lg font-medium">
+            Universities
+          </Link>
           <Popover className="relative">
             {({ open }) => (
               <>
