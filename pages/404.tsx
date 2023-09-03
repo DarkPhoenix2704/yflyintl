@@ -3,7 +3,7 @@ import Link from "next/link";
 const NotFound = () => {
   return (
     <div className="flex flex-col items-center ">
-      <div className="bg-[#6c48f0] py-16 gap-4 w-full flex flex-col items-center">
+      <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>

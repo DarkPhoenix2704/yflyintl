@@ -28,7 +28,7 @@ const StudyDestination = ({
             <span className="font-semibold text-white">&nbsp;{name}</span>
           </Link>
         </div>
-        <h1 className="text-4xl font-semibold text-[#f4f0ff]">
+        <h1 className="text-4xl font-semibold text-[#d5deeb]">
           Study in {name}
         </h1>
       </div>
@@ -51,7 +51,7 @@ const StudyDestination = ({
       <p className="text-center text-xl mt-8 md:w-[750px] px-4">
         {description}
       </p>
-      <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2 mt-4">
+      <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2 mt-4">
         <Link href="https://registration.yflyinternational.com/">
           Enquire Now
         </Link>
@@ -59,13 +59,13 @@ const StudyDestination = ({
       <hr className="w-11/12 my-8" />
       <div className="w-11/12 flex flex-col gap-4 lg:flex-row">
         <div className="flex flex-col lg:w-1/2">
-          <h1 className="text-3xl font-semibold text-[#5327b3]">
+          <h1 className="text-3xl font-semibold text-[#2860ad]">
             Why Study in {name}?
           </h1>
           <p className="text-lg mt-4 text-justify">{why}</p>
         </div>
         <div className="flex flex-col lg:w-1/2 lg:px-8">
-          <h1 className="text-3xl font-semibold text-[#5327b3]">
+          <h1 className="text-3xl font-semibold text-[#2860ad]">
             Quick Facts about {name}
           </h1>
           <ul className="list-disc list-inside mt-4">
@@ -79,19 +79,19 @@ const StudyDestination = ({
       </div>
       <hr className="w-11/12 my-8" />
       <div className="w-11/12 flex flex-col gap-4">
-        <h1 className="text-center text-3xl font-semibold text-[#5327b3]">
+        <h1 className="text-center text-3xl font-semibold text-[#2860ad]">
           Cost of Studying in {name}
         </h1>
         <table className="table-auto">
           <thead>
-            <tr className="bg-[#f4e0ff]">
+            <tr className="bg-[#E0E1FF]">
               <th className="border px-4 py-2">Expense</th>
               <th className="border px-4 py-2">Cost in {cost.currency}</th>
             </tr>
           </thead>
           <tbody>
             {cost.fees.map((fee) => (
-              <tr className="last:bg-[#f4e0ff]" key={fee.name}>
+              <tr className="last:bg-[#E0E1FF]" key={fee.name}>
                 <td className="border px-4 py-2">{fee.name}</td>
                 <td className="border px-4 text-center py-2">{fee.value}</td>
               </tr>
@@ -101,7 +101,7 @@ const StudyDestination = ({
       </div>
       <hr className="w-11/12 my-8" />
       <div className="w-11/12 flex flex-col gap-4">
-        <h1 className="text-center text-3xl font-semibold text-[#5327b3]">
+        <h1 className="text-center text-3xl font-semibold text-[#2860ad]">
           Career & Industry Insights
         </h1>
         <p className="text-justify text-lg">{insights}</p>
@@ -117,7 +117,7 @@ const StudyDestination = ({
           />
         </div>
         <div className="flex flex-col lg:w-1/2">
-          <h1 className="text-3xl text-center lg:text-left font-semibold text-[#5327b3]">
+          <h1 className="text-3xl text-center lg:text-left font-semibold text-[#2860ad]">
             Popular Courses
           </h1>
           <Image
@@ -137,7 +137,7 @@ const StudyDestination = ({
         </div>
       </div>
       <div className="py-4 lg:py-16 px-4 lg:w-11/12">
-        <h1 className="text-center text-4xl font-bold text-[#5327b3]">FAQs</h1>
+        <h1 className="text-center text-4xl font-bold text-[#2860ad]">FAQs</h1>
         <div className="flex gap-2 mt-4 flex-col">
           {faqs.map((faq) => (
             <Disclosure key={faq.question}>

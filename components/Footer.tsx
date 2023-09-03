@@ -25,11 +25,11 @@ export const Footer = () => {
             info@yflyinternational.com{" "}
           </Link>
           <Link
-            href="mailto:info@yflyinternational.com"
+            href="https://wa.me/+919947788222"
             className="flex flex-row text-[#7f7f8f] hover:text-white items-center gap-2"
           >
             <HiPhone className="text-2xl" />
-            +91 9645 90 3691
+            +919947788222
           </Link>
         </div>
 

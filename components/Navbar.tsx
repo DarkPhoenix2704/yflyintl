@@ -142,7 +142,7 @@ export const Navbar = () => {
           <Link href="/contact" className="text-lg font-medium">
             Contact
           </Link>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>

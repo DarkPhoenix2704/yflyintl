@@ -16,7 +16,7 @@ const CountryPage = () => {
   >(null);
   return (
     <div className="flex flex-col items-center ">
-      <div className="bg-[#6c48f0] py-16 gap-4 w-full flex flex-col items-center">
+      <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
@@ -37,16 +37,16 @@ const CountryPage = () => {
             window.location.hash = country?.id ?? "";
           }}
         >
-          <Listbox.Button className="text-md bg-white text-left flex justify-between font-semibold w-[325px] rounded-md  px-4 py-2 text-[#5327b3]">
+          <Listbox.Button className="text-md bg-white text-left flex justify-between font-semibold w-[325px] rounded-md  px-4 py-2 text-[#2860ad]">
             {selectedCountry?.name ?? "Select a Country"}
-            <HiChevronDown className="inline-block ml-2 text-[#5327b3] text-xl" />
+            <HiChevronDown className="inline-block ml-2 text-[#2860ad] text-xl" />
           </Listbox.Button>
           <Listbox.Options className="w-[325px] absolute rounded-md mt-[68px] bg-white py-1">
             {selectOptions.map((option) => (
               <Listbox.Option
                 key={option.id}
                 value={option}
-                className="py-2 px-4 hover:bg-[#f4f0ff] hover:text-[#6c48f0] cursor-pointer"
+                className="py-2 px-4 hover:bg-[#d5deeb] hover:text-[#2860ad] cursor-pointer"
               >
                 {option.name}
               </Listbox.Option>
@@ -89,7 +89,7 @@ const CountryPage = () => {
                   <button className="">
                     <Link
                       href={`/country/${destination.slug}`}
-                      className="text-[#5327b3] flex items-center gap-2 font-semibold mt-4"
+                      className="text-[#2860ad] flex items-center gap-2 font-semibold mt-4"
                     >
                       Explore More
                       <HiChevronRight className="text-xl" />

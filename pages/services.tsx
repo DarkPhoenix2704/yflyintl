@@ -7,7 +7,7 @@ import { MdFlight } from "react-icons/md";
 const Services = () => {
   return (
     <div className="flex justify-center items-center flex-col">
-      <div className="bg-[#6c48f0] text-center py-16 flex flex-col w-full items-center text-lg gap-4">
+      <div className="bg-[#2860ad] text-center py-16 flex flex-col w-full items-center text-lg gap-4">
         <div className="flex flex-row text-sm justify-center">
           <Link href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
@@ -16,7 +16,7 @@ const Services = () => {
             <span className="font-semibold text-white">&nbsp;Services</span>
           </Link>
         </div>
-        <h1 className="text-4xl font-semibold text-[#f4f0ff]">
+        <h1 className="text-4xl font-semibold text-[#d5deeb]">
           Study in the University of your choice
         </h1>
         <p className="text-white text-sm lg:w-5/12">
@@ -24,7 +24,7 @@ const Services = () => {
           universities. Thousands of our students are already pursuing their
           programs in eminent institutions, and we welcome you to do the same!
         </p>
-        <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] px-6 py-2">
+        <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2">
           <Link href="https://registration.yflyinternational.com/">
             Get Started
           </Link>
@@ -71,7 +71,7 @@ const Services = () => {
             id="counselling"
             className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
           >
-            <h1 className="text-[#6c48f0] text-2xl font-semibold">
+            <h1 className="text-[#2860ad] text-2xl font-semibold">
               Counselling
             </h1>
             <p className="text-lg">
@@ -79,7 +79,7 @@ const Services = () => {
               best academic decision suiting your career choices.
             </p>
 
-            <h2 className="text-xl py-2 font-semibold text-[#6c48f0]">
+            <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
               Our Offerings
             </h2>
             <ul className="list-disc list-inside">
@@ -88,7 +88,7 @@ const Services = () => {
               <li>Application Submission</li>
               <li>Visa Counselling</li>
             </ul>
-            <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+            <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
               <Link href="https://registration.yflyinternational.com/">
                 Enquire Now
               </Link>
@@ -116,7 +116,7 @@ const Services = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Test Preparation
           </h1>
           <p className="text-lg">
@@ -124,7 +124,7 @@ const Services = () => {
             certified, adept and dedicated tutors who will efficiently prepare
             you for your desired tests.
           </p>
-          <h2 className="text-xl mt-4 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -132,7 +132,7 @@ const Services = () => {
             <li>Study material that’s simple yet highly effective</li>
             <li>Score oriented tutorials & mock tests</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -145,7 +145,7 @@ const Services = () => {
           id="course-selection"
           className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
         >
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Course, Country & University selection
           </h1>
           <p className="text-lg">
@@ -153,7 +153,7 @@ const Services = () => {
             perfectly match your career, academic and budget preferences.
           </p>
 
-          <h2 className="text-xl py-2 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -161,7 +161,7 @@ const Services = () => {
             <li>Make precise academic and career decisions</li>
             <li>Course options across 700+ universities in 31 countries</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -188,7 +188,7 @@ const Services = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Application & Admission
           </h1>
           <p className="text-lg">
@@ -196,7 +196,7 @@ const Services = () => {
             universities that are your right fit and receive admits/offers in no
             time.
           </p>
-          <h2 className="text-xl mt-4 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -206,7 +206,7 @@ const Services = () => {
               Real time application tracking & follow through with universities
             </li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -219,7 +219,7 @@ const Services = () => {
           id="course-selection"
           className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
         >
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Scholarships
           </h1>
           <p className="text-lg">
@@ -227,7 +227,7 @@ const Services = () => {
             will help you identify and apply for the ones you deserve the most.
           </p>
 
-          <h2 className="text-xl py-2 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -235,7 +235,7 @@ const Services = () => {
             <li>Guidance on ‘how’ to apply for scholarships</li>
             <li>Assistance for scholarship essays</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -262,12 +262,12 @@ const Services = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">Internships</h1>
+          <h1 className="text-[#2860ad] text-2xl font-semibold">Internships</h1>
           <p className="text-lg">
             We know how important internships are to your profile and thus our
             course recommendations are full of options with inbuilt internships.
           </p>
-          <h2 className="text-xl mt-4 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -275,7 +275,7 @@ const Services = () => {
             <li>Guidance on paid/unpaid internships</li>
             <li>Know your placement periods and stipends</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -288,7 +288,7 @@ const Services = () => {
           id="education-loan"
           className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
         >
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Education Loan
           </h1>
           <p className="text-lg">
@@ -296,7 +296,7 @@ const Services = () => {
             never been easier!
           </p>
 
-          <h2 className="text-xl py-2 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -304,7 +304,7 @@ const Services = () => {
             <li>Financial structuring to suit your university</li>
             <li>Hassle free documentation</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>
@@ -331,7 +331,7 @@ const Services = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
-          <h1 className="text-[#6c48f0] text-2xl font-semibold">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
             Visa Processing
           </h1>
           <p className="text-lg">
@@ -339,7 +339,7 @@ const Services = () => {
             documents to Embassies and High Commissions to ensure a successful
             visa outcomes in minimal time.
           </p>
-          <h2 className="text-xl mt-4 font-semibold text-[#6c48f0]">
+          <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
           </h2>
           <ul className="list-disc list-inside">
@@ -347,7 +347,7 @@ const Services = () => {
             <li>Excellent visa success ratio across all countries</li>
             <li>Mock visa interviews</li>
           </ul>
-          <button className="bg-[#f4f0ff] text-[#5327b3] font-semibold rounded-xl hover:bg-[#f4e0ff] w-48 mt-4 px-6 py-2">
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
             <Link href="https://registration.yflyinternational.com/">
               Enquire Now
             </Link>

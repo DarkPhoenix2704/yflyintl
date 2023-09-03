@@ -62,6 +62,31 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="flex flex-col mt-2 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
+          <h1 className="text-xl font-semibold">TOP B SCHOOLS</h1>
+          <div className="flex flex-col md:flex-row px-2 py-4 md:space-x-8">
+            <img
+              src="/college-logo/stanford.jpg"
+              alt="Logo 1"
+              className="w-full md:w-auto md:h-32"
+            />
+            <img
+              src="/college-logo/harvard.jpg"
+              alt="Logo 2"
+              className="w-full md:w-auto md:h-32"
+            />
+            <img
+              src="/college-logo/mit.jpg"
+              alt="Logo 3"
+              className="w-full md:w-auto md:h-32"
+            />
+            <img
+              src="/college-logo/london.jpg"
+              alt="Logo 4"
+              className="w-full md:w-auto md:h-32"
+            />
+          </div>
+        </div>
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">

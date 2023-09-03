@@ -39,7 +39,7 @@ const ContactPage = () => {
 
   return (
     <div className="flex flex-col items-center ">
-      <div className="bg-[#6c48f0] py-16 gap-4 w-full flex flex-col items-center">
+      <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
@@ -107,7 +107,7 @@ const ContactPage = () => {
             />
             <button
               type="submit"
-              className="w-11/12 lg:w-[550px] bg-[#6c48f0] flex items-center justify-center text-white h-[50px] mt-8 px-4 rounded-md"
+              className="w-11/12 lg:w-[550px] bg-[#2860ad] flex items-center justify-center text-white h-[50px] mt-8 px-4 rounded-md"
             >
               {loading ? (
                 <>
