@@ -480,4 +480,66 @@ export const destinations = [
       },
     ],
   },
+  {
+    slug: "germany",
+    name: "Germany",
+    flag: "/Flag/Germany.svg",
+    grids: "/grids/Australia.png",
+    path: "/country/germany",
+    description: "Germany lies in the heart of Europe- which is an excellent starting point to discover other famous European destinations. You can be in London, Paris in no time.",
+    why: 'Each year more than 25,000 international students choose to study in Germany and undertake research activities. They are attracted by international study programmes and excellent research opportunities. In addition, study in Germany for Indian students allows them to be part of an international, highly qualified community. Over 300 international Degree programmes offer courses which are entirely or partly taught in the English language. These courses are offered in various disciplines, especially in Engineering, Natural Science, Computer Science, Business and Economics which leads to an internationally recognized Bachelor or Master degrees or even to a PHD. Universities are state-funded; therefore, generally low tuition fees are charged. Many institutions of higher education offer international students in Germany the opportunity to do internships or carry out research in industry. ',
+    facts: [
+      "7 of World’s Top 100 Universities",
+      "Choose from over 22,000 Courses across 1,100 Institutions",
+      "7 of the Best Student Cities in the World (QS Best Student Cities 2023)",
+      "More than A$300 Million Invested in Scholarships for International Students",
+      "Australian Universities have Produced 15 Nobel Laureates",
+      "More than Half a Million International Students from 192 Countries",
+      "Post Study Work Visa up to 6 years*",
+      "Good Permanent Residency Prospects",
+    ],
+    insights:
+      "Australia, the 12th-largest economy, is one of the wealthiest Asia–Pacific nations. After having enjoyed over two decades of economic expansion, Australia has become internationally competitive in financial and insurance services, technologies, and high-value-added manufactured goods. International students can look forward to high remuneration career prospects such as Medicine & Healthcare, Finance, IT, Mining & other Engineering Trades, Teaching & Social Work. Australian enjoy one of the highest standards of living in the world owing to a robust economy and a high employment rate with good quality of jobs.    ",
+    cost: {
+      currency: "EURO",
+      fees: [
+        {
+          name: "Bachelors",
+          value: '3000-5000',
+        },
+        {
+          name: "Masters",
+          value: '7050 - 17600',
+        },
+        {
+          name: "MBA",
+          value: '10000 - 12000',
+        }
+      ],
+    },
+    courses: [
+      "Business Administration and Economics",
+      "Engineering",
+      "BioSciences",
+      "Pharmacy",
+      "Chemistry",
+      "Computer Science Engineering",
+      "Biotechnology",
+    ],
+    faqs: [
+      {
+        question: "What quality of education is there in Germany?",
+        answer:"As study in Germany consultants, we can inform students that the standard of teaching and research in German universities is ranked among one of the best in the world."
+      },
+      {
+        question: "Is it compulsory to learn German language to study in Germany?",
+        answer:"Programs are exclusively taught in English. Therefore, German language skills are not a prerequisite for starting your studies. If you are willing to learn German, you also have the opportunity to join the German Language Courses at the University, which are free of charge. A good command of German will expand your advantage on the job market in case you consider working for one of the approx. 700 German companies in India."
+      },
+      {
+        question: "Is immigration possible in Germany?",
+        answer:
+        "Since 2002 Germany has a new immigration law. As international students in Germany you will receive a study visa. With this visa you are allowed to work 90 days or 180 half days in a calendar year. This right is not restricted for campus jobs like in the US. After your graduation, you have the right to stay in Germany for one year. During this time, you can concentrate on job-hunting. A permanent residence permit will be guaranteed after having been successful in finding a job."
+      },
+    ],
+  },
 ];

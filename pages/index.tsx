@@ -19,15 +19,15 @@ export default function Home() {
               alt="Hero Image"
               className="block text-center my-4 md:hidden"
             />
-            <h1 className="text-5xl md:text-6xl leading-light font-bold text-[#040c61]">
-              Give Wings to your Study Abroad Dreams
+            <h1 className="md:leading-[1.2] leading-[1.2] text-5xl md:text-6xl  font-bold text-[#040c61]">
+              Unlock Boundless Horizons, Embark on Your Global Odyssey with Us!
             </h1>
 
             <p className="text-lg text-[#8a8dad] mt-4">
-              We are always availed to consult on taking your higher education
-              to the next level.
+              Let&apos;s Elevate Your Higher Education Journey Together, Unlock
+              New Heights with Our Expert ConsultaKons!
             </p>
-            <button className="bg-[#5c0dff] w-48 py-4 text-white font-bold text-lg rounded-xl px-6  mt-4">
+            <button className="bg-[#0561b2] w-48 py-4 text-white font-bold text-lg rounded-xl px-6  mt-4">
               <Link href="https://registration.yflyinternational.com/">
                 Join Us
               </Link>
@@ -90,7 +90,7 @@ export default function Home() {
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+            {/* <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
               <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
                 <IoBookOutline className="text-white text-4xl" />
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
                 Comprehensive Training in IELTS, Spoken English, and German (A1,
                 A2, B1, B2).
               </p>
-            </div>
+            </div> */}
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
               <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                 <HiOutlineAcademicCap className="text-white text-4xl" />
@@ -152,10 +152,10 @@ export default function Home() {
             <HiArrowRight className="text-2xl" />
           </button>
           <img
-            src="/girl.png"
+            src="/girl1.png"
             width="300px"
             alt="Plane"
-            className="hidden md:block absolute top-[-50px] right-[50px]"
+            className="hidden md:block absolute top-[-57px] right-[50px]"
           />
         </div>
       </div>

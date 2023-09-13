@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <title>YFly International Study Abroad</title>
+      <title>YFLY International Study Abroad</title>
       <div className={inter.className}>
         <Navbar />
         <Component {...pageProps} />

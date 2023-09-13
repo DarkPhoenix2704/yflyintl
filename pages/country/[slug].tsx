@@ -188,10 +188,10 @@ const StudyDestination = ({
           <HiArrowRight className="text-2xl" />
         </button>
         <img
-          src="/girl.png"
+          src="/girl1.png"
           width="300px"
           alt="Plane"
-          className="hidden md:block absolute top-[-50px] right-[50px]"
+          className="hidden md:block absolute top-[-57px] right-[50px]"
         />
       </div>
     </div>
