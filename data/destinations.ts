@@ -486,20 +486,18 @@ export const destinations = [
     flag: "/Flag/Germany.svg",
     grids: "/grids/Australia.png",
     path: "/country/germany",
-    description: "Germany lies in the heart of Europe- which is an excellent starting point to discover other famous European destinations. You can be in London, Paris in no time.",
+    description: "Germany, ranked among the world's top economies, stands out as one of Europe's most prosperous nations",
     why: 'Each year more than 25,000 international students choose to study in Germany and undertake research activities. They are attracted by international study programmes and excellent research opportunities. In addition, study in Germany for Indian students allows them to be part of an international, highly qualified community. Over 300 international Degree programmes offer courses which are entirely or partly taught in the English language. These courses are offered in various disciplines, especially in Engineering, Natural Science, Computer Science, Business and Economics which leads to an internationally recognized Bachelor or Master degrees or even to a PHD. Universities are state-funded; therefore, generally low tuition fees are charged. Many institutions of higher education offer international students in Germany the opportunity to do internships or carry out research in industry. ',
     facts: [
-      "7 of World’s Top 100 Universities",
-      "Choose from over 22,000 Courses across 1,100 Institutions",
-      "7 of the Best Student Cities in the World (QS Best Student Cities 2023)",
-      "More than A$300 Million Invested in Scholarships for International Students",
-      "Australian Universities have Produced 15 Nobel Laureates",
-      "More than Half a Million International Students from 192 Countries",
-      "Post Study Work Visa up to 6 years*",
-      "Good Permanent Residency Prospects",
+      "German universities award world-class diplomas",
+      "Low cost of living",
+      "Sixteenth safest country in the world.",
+      "Seamless integration through newcomer mentoring programs.",
+      "More than 450 universities and, 17500 study programs in Germany",
+      "Scholarships for excellent students",
     ],
     insights:
-      "Australia, the 12th-largest economy, is one of the wealthiest Asia–Pacific nations. After having enjoyed over two decades of economic expansion, Australia has become internationally competitive in financial and insurance services, technologies, and high-value-added manufactured goods. International students can look forward to high remuneration career prospects such as Medicine & Healthcare, Finance, IT, Mining & other Engineering Trades, Teaching & Social Work. Australian enjoy one of the highest standards of living in the world owing to a robust economy and a high employment rate with good quality of jobs.    ",
+      "Germany, ranked among the world's top economies, stands out as one of Europe's most prosperous nations. With a track record of sustained economic growth, Germany has established itself as a global leader in various industries. International students and professionals can anticipate promising career prospects in sectors such as Engineering and Manufacturing, where precision and innovation are key; Technology and IT, with vibrant tech hubs like Berlin; Finance and Banking, anchored by Frankfurt's financial prowess; Medicine & Healthcare, renowned for its healthcare system and research opportunities; Green and Renewable Energy, contributing to a sustainable future; Automotive Industry, combining tradition and innovation; Education and Research, offering world-class academic pursuits; Creative Arts and Design, fostering artistic expression; Tourism and Hospitality, welcoming visitors from around the world; and Consulting and Management, where analytical thinking is highly prized. Germany's robust economy, commitment to innovation, and exceptional quality of life make it a destination for those seeking high-quality careers and a superior standard of living.",
     cost: {
       currency: "EURO",
       fees: [

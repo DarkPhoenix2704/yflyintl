@@ -75,8 +75,10 @@ const Services = () => {
               Counselling
             </h1>
             <p className="text-lg">
-              Our counselling sessions will immensely benefit you in making the
-              best academic decision suiting your career choices.
+              Our expert counselors provide personalized guidance to help you
+              make informed decisions about your study abroad journey. From
+              career aspiraKons to academic interests, we&apos;re here to
+              support your dreams and aspiraKons
             </p>
 
             <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
