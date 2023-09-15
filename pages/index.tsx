@@ -1,8 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { Navbar } from "@app/components/Navbar";
 import { Inter } from "next/font/google";
-import { IoBookOutline, IoHomeOutline } from "react-icons/io5";
-import { MdFlight } from "react-icons/md";
+import {
+  IoBookOutline,
+  IoCash,
+  IoCashOutline,
+  IoHomeOutline,
+} from "react-icons/io5";
+import { MdBook, MdFlight, MdMoney, MdPerson } from "react-icons/md";
 import { GrVisa } from "react-icons/gr";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import Link from "next/link";
@@ -38,7 +43,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col mt-8 bg-[#f9fafc] justify-center py-16 font-semibold items-center">
-          <h1 className="text-xl font-semibold">FEATURED UNIVERSITIES</h1>
+          <h1 className="font-bold text-3xl py-4 text-center">
+            FEATURED UNIVERSITIES
+          </h1>
           <div className="flex flex-col md:flex-row px-2 md:space-x-8">
             <img
               src="/princeton_logo.png"
@@ -63,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col mt-2 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
-          <h1 className="text-xl font-semibold">TOP B SCHOOLS</h1>
+          <h1 className="font-bold text-3xl py-4 text-center">TOP B Schools</h1>
           <div className="flex flex-col md:flex-row px-2 py-4 md:space-x-8">
             <img
               src="/college-logo/stanford.jpg"
@@ -90,16 +97,13 @@ export default function Home() {
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
-            {/* <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
               <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                <IoBookOutline className="text-white text-4xl" />
+                <IoCash className="text-white text-4xl" />
               </div>
-              <p className="font-bold text-xl ">Training</p>
-              <p className="text-lg text-[#67747a]">
-                Comprehensive Training in IELTS, Spoken English, and German (A1,
-                A2, B1, B2).
-              </p>
-            </div> */}
+              <p className="font-bold text-xl ">Forex Transactions</p>
+              <p className="text-lg text-[#67747a]">Currency Exchange</p>
+            </div>
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
               <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                 <HiOutlineAcademicCap className="text-white text-4xl" />
@@ -136,6 +140,64 @@ export default function Home() {
                 Equipping You for a Successful Study Abroad Journey.
               </p>
             </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+              <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
+                <MdFlight className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">Flight Booking</p>
+              <p className="text-lg text-[#67747a]">
+                Get Great Deals for both International Flights
+              </p>
+            </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
+              <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
+                <MdBook className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">SOP / LOR Preparation</p>
+              <p className="text-lg text-[#67747a]">
+                Assistance for SOP/LOR Preparation
+              </p>
+            </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                <MdMoney className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">Edu Loans</p>
+              <p className="text-lg text-[#67747a]">
+                Get attractive Education Loans
+              </p>
+            </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                <MdPerson className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">Internships</p>
+              <p className="text-lg text-[#67747a]">
+                Find the best internships for you
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col px-4 mt-8 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
+          <h1 className="font-bold text-3xl py-4 text-center">Trainings</h1>
+          <div className="flex flex-col md:flex-row px-2 py-6 gap-8">
+            <img src="/tests/gmat.png" alt="GMAT" className="w-full md:h-24" />
+            <img
+              src="/tests/ielts.png"
+              alt="IELTS"
+              className="w-full md:h-24"
+            />
+            <img src="/tests/pte.png" alt="PTE" className="w-full md:h-24" />
+            <img
+              src="/tests/toefl.png"
+              alt="TOEFL"
+              className="w-full md:h-24"
+            />
+            <img
+              src="/tests/german.png"
+              alt="German"
+              className="w-full md:h-24"
+            />
           </div>
         </div>
         <div className="flex gap-3 flex-col relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">
