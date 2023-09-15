@@ -135,9 +135,7 @@ const Services = () => {
             <li>Score oriented tutorials & mock tests</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
-              Enquire Now
-            </Link>
+            <Link href="/services/test-preparation">Enquire Now</Link>
           </button>
         </div>
       </div>
@@ -370,10 +368,10 @@ const Services = () => {
           <HiArrowRight className="text-2xl" />
         </button>
         <img
-          src="/girl.png"
+          src="/girl1.png"
           width="300px"
           alt="Plane"
-          className="hidden md:block absolute top-[-50px] right-[50px]"
+          className="hidden md:block absolute top-[-57px] right-[50px]"
         />
       </div>
     </div>
