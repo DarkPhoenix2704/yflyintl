@@ -77,8 +77,8 @@ const Services = () => {
             <p className="text-lg">
               Our expert counselors provide personalized guidance to help you
               make informed decisions about your study abroad journey. From
-              career aspiraKons to academic interests, we&apos;re here to
-              support your dreams and aspiraKons
+              career aspirations to academic interests, we're here to support
+              your dreams and aspirations
             </p>
 
             <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -149,8 +149,10 @@ const Services = () => {
             Course, Country & University selection
           </h1>
           <p className="text-lg">
-            We help you choose the ideal course, university & country that
-            perfectly match your career, academic and budget preferences.
+            Our team of experienced advisors helps you choose the right course,
+            country, and university that align with your academic goals and
+            personal preferences. We make sure your educational journey is both
+            fulfilling and rewarding
           </p>
 
           <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -192,9 +194,9 @@ const Services = () => {
             Application & Admission
           </h1>
           <p className="text-lg">
-            Choose the right intake, apply timely and smartly in courses and
-            universities that are your right fit and receive admits/offers in no
-            time.
+            We streamline the application and admission process, ensuring all
+            documentation is in order and submitted on Time. We maximize your
+            chances of securing a place at your dream university.
           </p>
           <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
@@ -223,8 +225,9 @@ const Services = () => {
             Scholarships
           </h1>
           <p className="text-lg">
-            Our global universities have plenty of scholarships on offer and we
-            will help you identify and apply for the ones you deserve the most.
+            Our scholarship experts guide you through the application process,
+            helping you secure scholarships and grants to alleviate the
+            financial burden of studying abroad
           </p>
 
           <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -264,8 +267,9 @@ const Services = () => {
         <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
           <h1 className="text-[#2860ad] text-2xl font-semibold">Internships</h1>
           <p className="text-lg">
-            We know how important internships are to your profile and thus our
-            course recommendations are full of options with inbuilt internships.
+            We connect you with internships and work opportunities in your
+            chosen field, enhancing your resume and providing valuable
+            experience during your study abroad adventure
           </p>
           <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
@@ -292,8 +296,9 @@ const Services = () => {
             Education Loan
           </h1>
           <p className="text-lg">
-            Availing an education loan to study in your dream university has
-            never been easier!
+            Our team assists you in securing education loans at favorable terms,
+            ensuring that financing your education doesn't stand in the way of
+            your dreams.
           </p>
 
           <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -335,9 +340,9 @@ const Services = () => {
             Visa Processing
           </h1>
           <p className="text-lg">
-            Our skilled visa experts will help you prepare and present your visa
-            documents to Embassies and High Commissions to ensure a successful
-            visa outcomes in minimal time.
+            Navigating visa requirements can be overwhelming. Our visa experts
+            make the process hassle-free, ensuring you're fully prepared for
+            your journey
           </p>
           <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
