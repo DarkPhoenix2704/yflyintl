@@ -359,6 +359,122 @@ const Services = () => {
           </button>
         </div>
       </div>
+      <hr className="w-11/12 my-8" />
+      <div className="w-11/12 flex flex-col lg:flex-row">
+        <div
+          id="forex-transaction"
+          className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
+        >
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
+            Forex Transactions
+          </h1>
+          <p className="text-lg">
+            We help you obtain the best exchange rates and manage your forex
+            transactions, ensuring your financial matters are handled with care
+            and efficiency
+          </p>
+
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
+            </Link>
+          </button>
+        </div>
+        <div className="hidden lg:flex flex-col w-full justify-center items-center lg:w-1/2">
+          <img
+            src="/services/education-loan.png"
+            alt="education-loan"
+            className="w-[400px]"
+          />
+        </div>
+      </div>
+      <hr className="w-11/12 my-8" />
+      <div
+        id="flight-booking"
+        className="flex flex-col lg:flex-row py-6 w-11/12 lg:py-16"
+      >
+        <div className="hidden lg:flex flex-col w-full justify-center items-left lg:w-1/2">
+          <img
+            src="/services/visa-guidance.png"
+            alt="visa-guidance"
+            className="w-[400px]"
+          />
+        </div>
+        <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
+            Flight Booking
+          </h1>
+          <p className="text-lg">
+            Leave the logistics to us. Our travel experts assist with flight
+            bookings, ensuring you arrive safely and comfortably at your
+            destination
+          </p>
+
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
+            </Link>
+          </button>
+        </div>
+      </div>
+      <hr className="w-11/12 my-8" />
+      <div className="w-11/12 flex flex-col lg:flex-row">
+        <div
+          id="lor-preparation"
+          className="flex flex-col w-full gap-4 lg:py-16 lg:w-1/2"
+        >
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
+            SOP / LOR Preparation
+          </h1>
+          <p className="text-lg">
+            Our team of experienced writers helps you create compelling
+            Statements of Purpose (SOP) and Letters of Recommendation (LOR) that
+            make a lasting impression on admission committees
+          </p>
+
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
+            </Link>
+          </button>
+        </div>
+        <div className="hidden lg:flex flex-col w-full justify-center items-center lg:w-1/2">
+          <img
+            src="/services/lor-preparation.png"
+            alt="education-loan"
+            className="w-[400px]"
+          />
+        </div>
+      </div>
+      <hr className="w-11/12 my-8" />
+      <div
+        id="student-accomodation"
+        className="flex flex-col lg:flex-row py-6 w-11/12 lg:py-16"
+      >
+        <div className="hidden lg:flex flex-col w-full justify-center items-left lg:w-1/2">
+          <img
+            src="/services/accomodation.png"
+            alt="visa-guidance"
+            className="w-[400px]"
+          />
+        </div>
+        <div className="flex flex-col gap-4 justify-center w-full lg:w-1/2">
+          <h1 className="text-[#2860ad] text-2xl font-semibold">
+            Student Accommodation
+          </h1>
+          <p className="text-lg">
+            Finding the perfect place to live while studying abroad is crucial.
+            We offer a range of accommodation options to suit your preferences
+            and budget, ensuring a comfortable stay.
+          </p>
+
+          <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
+            <Link href="https://registration.yflyinternational.com/">
+              Enquire Now
+            </Link>
+          </button>
+        </div>
+      </div>
       <div className="flex gap-3 flex-col w-10/12 relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">
         <h1 className=" text-3xl md:text-6xl text-[#040c61] font-semibold">
           Are you ready to fly

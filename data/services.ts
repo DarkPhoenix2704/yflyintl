@@ -31,4 +31,20 @@ export const services = [
     name: "Visa Guidance",
     path: "/services/#visa-guidance",
   },
+  {
+    name: "Forex Transaction",
+    path: "/services/#forex-transaction",
+  },
+  {
+    name: "Flight Booking",
+    path: "/services/#flight-booking",
+  },
+  {
+    name: "SOP/LOR Preparation",
+    path: "/services/#lor-preparation",
+  },
+  {
+    name: "Student Accommodation",
+    path: "/services/#student-accomodation",
+  },
 ];

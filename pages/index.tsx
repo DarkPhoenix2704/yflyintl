@@ -46,7 +46,7 @@ export default function Home() {
           <h1 className="font-bold text-3xl py-4 text-center">
             FEATURED UNIVERSITIES
           </h1>
-          <div className="flex flex-col md:flex-row px-2 md:space-x-8">
+          <div className="flex flex-col md:flex-row md:flex-wrap px-2 gap-8 justify-center">
             <img
               src="/princeton_logo.png"
               alt="Logo 1"
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col mt-2 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
           <h1 className="font-bold text-3xl py-4 text-center">TOP B Schools</h1>
-          <div className="flex flex-col md:flex-row px-2 py-4 md:space-x-8">
+          <div className="flex flex-col md:flex-row md:flex-wrap justify-center px-2 py-4 gap-8">
             <img
               src="/college-logo/stanford.jpg"
               alt="Logo 1"
@@ -180,23 +180,31 @@ export default function Home() {
         </div>
         <div className="flex flex-col px-4 mt-8 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
           <h1 className="font-bold text-3xl py-4 text-center">Trainings</h1>
-          <div className="flex flex-col md:flex-row px-2 py-6 gap-8">
-            <img src="/tests/gmat.png" alt="GMAT" className="w-full md:h-24" />
+          <div className="flex flex-col md:justify-center md:flex-row md:flex-wrap px-2 py-6 gap-8">
+            <img
+              src="/tests/gmat.png"
+              alt="GMAT"
+              className="w-full md:w-auto md:h-24"
+            />
             <img
               src="/tests/ielts.png"
               alt="IELTS"
-              className="w-full md:h-24"
+              className="w-full md:w-auto md:h-24"
             />
-            <img src="/tests/pte.png" alt="PTE" className="w-full md:h-24" />
+            <img
+              src="/tests/pte.png"
+              alt="PTE"
+              className="w-full md:w-auto md:h-24"
+            />
             <img
               src="/tests/toefl.png"
               alt="TOEFL"
-              className="w-full md:h-24"
+              className="w-full md:w-auto md:h-24"
             />
             <img
               src="/tests/german.png"
               alt="German"
-              className="w-full md:h-24"
+              className="w-full md:w-auto md:h-24"
             />
           </div>
         </div>
