@@ -50,22 +50,22 @@ export default function Home() {
             <img
               src="/princeton_logo.png"
               alt="Logo 1"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/yle_logo.png"
               alt="Logo 2"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/harvard_logo.png"
               alt="Logo 3"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/toronto_logo.png"
               alt="Logo 4"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
           </div>
         </div>
@@ -75,22 +75,22 @@ export default function Home() {
             <img
               src="/college-logo/stanford.jpg"
               alt="Logo 1"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/college-logo/harvard.jpg"
               alt="Logo 2"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/college-logo/mit.jpg"
               alt="Logo 3"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
             <img
               src="/college-logo/london.jpg"
               alt="Logo 4"
-              className="w-full md:w-auto md:h-32"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
             />
           </div>
         </div>
@@ -180,32 +180,42 @@ export default function Home() {
         </div>
         <div className="flex flex-col px-4 mt-8 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
           <h1 className="font-bold text-3xl py-4 text-center">Trainings</h1>
-          <div className="flex flex-col md:justify-center md:flex-row md:flex-wrap px-2 py-6 gap-8">
-            <img
-              src="/tests/gmat.png"
-              alt="GMAT"
-              className="w-full md:w-auto md:h-24"
-            />
-            <img
-              src="/tests/ielts.png"
-              alt="IELTS"
-              className="w-full md:w-auto md:h-24"
-            />
-            <img
-              src="/tests/pte.png"
-              alt="PTE"
-              className="w-full md:w-auto md:h-24"
-            />
-            <img
-              src="/tests/toefl.png"
-              alt="TOEFL"
-              className="w-full md:w-auto md:h-24"
-            />
-            <img
-              src="/tests/german.png"
-              alt="German"
-              className="w-full md:w-auto md:h-24"
-            />
+          <div className="flex flex-col md:justify-center md:flex-row flex-wrap px-2 py-6 gap-8">
+            <Link href="/services/test-preparation#ielts">
+              <img
+                src="/tests/ielts.png"
+                alt="IELTS"
+                className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
+              />
+            </Link>
+            <Link href="/services/test-preparation#german">
+              <img
+                src="/tests/german.png"
+                alt="German"
+                className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
+              />
+            </Link>
+            <Link href="/services/test-preparation#gmat">
+              <img
+                src="/tests/gmat.png"
+                alt="GMAT"
+                className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
+              />
+            </Link>
+            <Link href="/services/test-preparation#pte">
+              <img
+                src="/tests/pte.png"
+                alt="PTE"
+                className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
+              />
+            </Link>
+            <Link href="/services/test-preparation#toefl">
+              <img
+                src="/tests/toefl.png"
+                alt="TOEFL"
+                className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
+              />
+            </Link>
           </div>
         </div>
         <div className="flex gap-3 flex-col relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">

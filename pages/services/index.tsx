@@ -30,40 +30,7 @@ const Services = () => {
           </Link>
         </button>
       </div>
-      <div className="py-8">
-        <h1 className="text-4xl text-center font-semibold">
-          Why YFly International?
-        </h1>
-        <div className="flex flex-col flex-wrap md:flex-row items-center justify-center mt-8 gap-4">
-          <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-            <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-              <HiOutlineAcademicCap className="text-white text-4xl" />
-            </div>
-            <p className="font-bold text-xl ">Pre-Departure Briefing</p>
-            <p className="text-lg text-[#67747a]">
-              Equipping You for a Successful Study Abroad Journey.
-            </p>
-          </div>
-          <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-            <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-              <HiHomeModern className="text-white text-4xl" />
-            </div>
-            <p className="font-bold text-xl ">Supporting you all the way</p>
-            <p className="text-lg text-[#67747a]">
-              From the day you consult us till the day you land{" "}
-            </p>
-          </div>
-          <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-            <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-              <HiSupport className="text-white text-4xl" />
-            </div>
-            <p className="font-bold text-xl ">Pre-Departure Briefing</p>
-            <p className="text-lg text-[#67747a]">
-              Equipping You for a Successful Study Abroad Journey.
-            </p>
-          </div>
-        </div>
-      </div>
+
       <div className="bg-[#f8fafc] w-11/12 flex flex-col items-center justify-center">
         <h1 className="text-4xl  py-4 font-semibold">Our Services</h1>
         <div className="w-full flex flex-col lg:flex-row">
@@ -77,8 +44,8 @@ const Services = () => {
             <p className="text-lg">
               Our expert counselors provide personalized guidance to help you
               make informed decisions about your study abroad journey. From
-              career aspirations to academic interests, we're here to support
-              your dreams and aspirations
+              career aspirations to academic interests, we&apos;re here to
+              support your dreams and aspirations
             </p>
 
             <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -297,8 +264,8 @@ const Services = () => {
           </h1>
           <p className="text-lg">
             Our team assists you in securing education loans at favorable terms,
-            ensuring that financing your education doesn't stand in the way of
-            your dreams.
+            ensuring that financing your education doesn&apos;t stand in the way
+            of your dreams.
           </p>
 
           <h2 className="text-xl py-2 font-semibold text-[#2860ad]">
@@ -341,8 +308,8 @@ const Services = () => {
           </h1>
           <p className="text-lg">
             Navigating visa requirements can be overwhelming. Our visa experts
-            make the process hassle-free, ensuring you're fully prepared for
-            your journey
+            make the process hassle-free, ensuring you&apos;re fully prepared
+            for your journey
           </p>
           <h2 className="text-xl mt-4 font-semibold text-[#2860ad]">
             Our Offerings
