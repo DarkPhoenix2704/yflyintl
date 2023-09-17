@@ -97,13 +97,6 @@ export default function Home() {
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-              <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                <IoCash className="text-white text-4xl" />
-              </div>
-              <p className="font-bold text-xl ">Forex Transactions</p>
-              <p className="text-lg text-[#67747a]">Currency Exchange</p>
-            </div>
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
               <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                 <HiOutlineAcademicCap className="text-white text-4xl" />
@@ -131,15 +124,6 @@ export default function Home() {
                 Hassle-free Accommodation Solutions
               </p>
             </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                <MdFlight className="text-white text-4xl" />
-              </div>
-              <p className="font-bold text-xl ">Pre-Departure Briefing</p>
-              <p className="text-lg text-[#67747a]">
-                Equipping You for a Successful Study Abroad Journey.
-              </p>
-            </div>
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
               <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
                 <MdFlight className="text-white text-4xl" />
@@ -147,6 +131,15 @@ export default function Home() {
               <p className="font-bold text-xl ">Flight Booking</p>
               <p className="text-lg text-[#67747a]">
                 Get Great Deals for both International Flights
+              </p>
+            </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                <MdFlight className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">Pre-Departure Briefing</p>
+              <p className="text-lg text-[#67747a]">
+                Equipping You for a Successful Study Abroad Journey.
               </p>
             </div>
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
@@ -167,6 +160,14 @@ export default function Home() {
                 Get attractive Education Loans
               </p>
             </div>
+            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+              <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
+                <IoCash className="text-white text-4xl" />
+              </div>
+              <p className="font-bold text-xl ">Forex Transactions</p>
+              <p className="text-lg text-[#67747a]">Currency Exchange</p>
+            </div>
+
             <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
               <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
                 <MdPerson className="text-white text-4xl" />
