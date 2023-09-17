@@ -102,7 +102,7 @@ const Services = () => {
             <li>Score oriented tutorials & mock tests</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="/services/test-preparation">Enquire Now</Link>
+            <Link href="/services/test-preparation">Know More</Link>
           </button>
         </div>
       </div>
