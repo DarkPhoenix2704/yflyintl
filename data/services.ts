@@ -21,7 +21,7 @@ export const services = [
   },
   {
     name: "Test Preparation",
-    path: "/services/#test-preparation",
+    path: "/services/test-preparation",
   },
   {
     name: "Course, College & University Selection",
