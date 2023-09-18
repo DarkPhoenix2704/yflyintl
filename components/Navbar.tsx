@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="flex bg-white px-8 py-4 text-[#040c61] flex-row items-center justify-between">
-        <Link href="/">
+        <Link scroll={false} href="/">
           <img
             src="/logo_blue.png"
             className="cursor-pointer h-10 md:h-16"
@@ -33,10 +33,14 @@ export const Navbar = () => {
           />
         </Link>
         <div className="md:flex flex-row space-x-6 items-center hidden">
-          <Link href="/" className="text-lg font-medium">
+          <Link scroll={false} href="/" className="text-lg font-medium">
             Home
           </Link>
-          <Link href="/university" className="text-lg font-medium">
+          <Link
+            scroll={false}
+            href="/university"
+            className="text-lg font-medium"
+          >
             Universities
           </Link>
           <Popover className="relative">
@@ -68,6 +72,7 @@ export const Navbar = () => {
                       <div className="bg-gray-50 p-4">
                         {destinations.map((destination) => (
                           <Link
+                            scroll={false}
                             key={destination.slug}
                             href={destination.path}
                             className="flow-root rounded-md px-2 py-2 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -121,6 +126,7 @@ export const Navbar = () => {
                       <div className="bg-gray-50 p-4">
                         {services.map((service) => (
                           <Link
+                            scroll={false}
                             key={service.name}
                             href={service.path}
                             className="flow-root rounded-md px-2 py-2 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -139,11 +145,14 @@ export const Navbar = () => {
               </>
             )}
           </Popover>
-          <Link href="/contact" className="text-lg font-medium">
+          <Link scroll={false} href="/contact" className="text-lg font-medium">
             Contact
           </Link>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -165,7 +174,7 @@ export const Navbar = () => {
           show ? "z-[3] h-[100vh]" : "z-[-1] h-0 opacity-0"
         }`}
       >
-        <Link href="/">
+        <Link scroll={false} href="/">
           <Image
             src="/logo_white.png"
             width={250}
@@ -175,6 +184,7 @@ export const Navbar = () => {
         </Link>
         <div className="flex flex-col text-white space-y-4 items-center ">
           <Link
+            scroll={false}
             href="/"
             className="text-lg font-semibold"
             onClick={() => {
@@ -184,6 +194,7 @@ export const Navbar = () => {
             Home
           </Link>
           <Link
+            scroll={false}
             href="/university"
             className="text-lg font-semibold"
             onClick={() => {
@@ -193,6 +204,7 @@ export const Navbar = () => {
             Universities
           </Link>
           <Link
+            scroll={false}
             href="/services"
             className="text-lg font-semibold"
             onClick={() => {
@@ -202,6 +214,7 @@ export const Navbar = () => {
             Services
           </Link>
           <Link
+            scroll={false}
             href="/country"
             className="text-lg font-semibold"
             onClick={() => {
@@ -211,6 +224,7 @@ export const Navbar = () => {
             Study Destinations
           </Link>
           <Link
+            scroll={false}
             href="/contact"
             className="text-lg font-semibold"
             onClick={() => {
@@ -225,7 +239,10 @@ export const Navbar = () => {
               setShow(false);
             }}
           >
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>

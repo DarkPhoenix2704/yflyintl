@@ -21,10 +21,10 @@ const StudyDestination = ({
     <div className="flex justify-center items-center flex-col">
       <div className="bg-[#0261b2] text-center py-16 flex flex-col w-full text-lg gap-4">
         <div className="flex flex-row text-sm justify-center">
-          <Link href="/country">
+          <Link scroll={false} href="/country">
             <p className="text-[#f4f0f8] font-medium">Study Destinations •</p>
           </Link>
-          <Link href={`/country/${slug}`}>
+          <Link scroll={false} href={`/country/${slug}`}>
             <span className="font-semibold text-white">&nbsp;{name}</span>
           </Link>
         </div>
@@ -52,7 +52,7 @@ const StudyDestination = ({
         {description}
       </p>
       <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2 mt-4">
-        <Link href="https://registration.yflyinternational.com/">
+        <Link scroll={false} href="https://registration.yflyinternational.com/">
           Enquire Now
         </Link>
       </button>
@@ -182,7 +182,10 @@ const StudyDestination = ({
           and pursue your dreams?
         </p>
         <button className="bg-white gap-2 items-center justify-center flex flex-row rounded-md w-48 px-4 py-3">
-          <Link href="https://registration.yflyinternational.com/">
+          <Link
+            scroll={false}
+            href="https://registration.yflyinternational.com/"
+          >
             Get Started
           </Link>
           <HiArrowRight className="text-2xl" />

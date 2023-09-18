@@ -18,6 +18,7 @@ export const Footer = () => {
             alt="Logo White"
           />
           <Link
+            scroll={false}
             href="mailto:info@yflyinternational.com"
             className="flex flex-row text-[#7f7f8f] hover:text-white items-center gap-2"
           >
@@ -25,6 +26,7 @@ export const Footer = () => {
             info@yflyinternational.com{" "}
           </Link>
           <Link
+            scroll={false}
             href="https://wa.me/+919947788222"
             className="flex flex-row text-[#7f7f8f] hover:text-white items-center gap-2"
           >
@@ -37,7 +39,7 @@ export const Footer = () => {
           <h1 className="text-lg font-semibold">Student Services</h1>
           <div className="flex flex-col gap-2 mt-2 text-[#7f7f8f]">
             {services.map((service) => (
-              <Link key={service.name} href={service.path}>
+              <Link scroll={false} key={service.name} href={service.path}>
                 <p className="hover:text-white cursor-pointer">
                   {service.name}
                 </p>
@@ -45,6 +47,7 @@ export const Footer = () => {
             ))}
 
             <Link
+              scroll={false}
               href="/university"
               className="hover:text-white cursor-pointer"
             >
@@ -57,6 +60,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-2 mt-2 text-[#7f7f8f]">
             {destinations.map((destination) => (
               <Link
+                scroll={false}
                 key={destination.slug}
                 href={`/country/${destination.slug}`}
               >
@@ -68,10 +72,10 @@ export const Footer = () => {
         <div className="flex flex-col">
           <h1 className="text-lg font-semibold">Company</h1>
           <div className="flex flex-col gap-2 mt-2 text-[#7f7f8f]">
-            <Link href="/about">
+            <Link scroll={false} href="/about">
               <p className="hover:text-white">About Us</p>
             </Link>
-            <Link href="/contact">
+            <Link scroll={false} href="/contact">
               <p className="hover:text-white">Contact Us</p>
             </Link>
           </div>
@@ -91,19 +95,31 @@ export const Footer = () => {
       <hr className="w-11/12 py-2" />
       <div className="flex py-4 gap-2 flex-col items-center md:flex-row">
         <div className="flex flex-row gap-4">
-          <Link href="https://www.facebook.com/yfly.international">
+          <Link
+            scroll={false}
+            href="https://www.facebook.com/yfly.international"
+          >
             <MdFacebook className="text-2xl text-white" />
           </Link>
-          <Link href="https://www.instagram.com/yfly_international/">
+          <Link
+            scroll={false}
+            href="https://www.instagram.com/yfly_international/"
+          >
             <IoLogoInstagram className="text-2xl text-white" />
           </Link>
-          <Link href="/">
+          <Link scroll={false} href="/">
             <IoLogoTwitter className="text-2xl text-white" />
           </Link>
-          <Link href="https://www.linkedin.com/company/yfly-international">
+          <Link
+            scroll={false}
+            href="https://www.linkedin.com/company/yfly-international"
+          >
             <IoLogoLinkedin className="text-2xl text-white" />
           </Link>
-          <Link href="https://web.whatsapp.com/send/?phone=919947788222&text=Hello%2C+YFLY+&type=phone_number&app_absent=0">
+          <Link
+            scroll={false}
+            href="https://web.whatsapp.com/send/?phone=919947788222&text=Hello%2C+YFLY+&type=phone_number&app_absent=0"
+          >
             <IoLogoWhatsapp className="text-2xl text-white" />
           </Link>
         </div>

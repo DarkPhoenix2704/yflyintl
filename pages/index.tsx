@@ -33,7 +33,10 @@ export default function Home() {
               New Heights with Our Expert ConsultaKons!
             </p>
             <button className="bg-[#0561b2] w-48 py-4 text-white font-bold text-lg rounded-xl px-6  mt-4">
-              <Link href="https://registration.yflyinternational.com/">
+              <Link
+                scroll={false}
+                href="https://registration.yflyinternational.com/"
+              >
                 Join Us
               </Link>
             </button>
@@ -97,7 +100,7 @@ export default function Home() {
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
-            <Link href="/services/#application-process">
+            <Link scroll={false} href="/services/#application-process">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
                 <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                   <HiOutlineAcademicCap className="text-white text-4xl" />
@@ -108,7 +111,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#visa-guidance">
+            <Link scroll={false} href="/services/#visa-guidance">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
                 <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
                   <GrVisa className="text-white text-4xl" />
@@ -119,7 +122,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#student-accomodation">
+            <Link scroll={false} href="/services/#student-accomodation">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
                 <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                   <IoHomeOutline className="text-white text-4xl" />
@@ -130,7 +133,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#flight-booking">
+            <Link scroll={false} href="/services/#flight-booking">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
                 <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
                   <MdFlight className="text-white text-4xl" />
@@ -141,7 +144,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#flight-booking">
+            <Link scroll={false} href="/services/#flight-booking">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
                 <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
                   <MdFlight className="text-white text-4xl" />
@@ -152,7 +155,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#lor-preparation">
+            <Link scroll={false} href="/services/#lor-preparation">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
                 <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
                   <MdBook className="text-white text-4xl" />
@@ -163,7 +166,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#education-loan">
+            <Link scroll={false} href="/services/#education-loan">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
                 <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
                   <MdMoney className="text-white text-4xl" />
@@ -174,7 +177,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
-            <Link href="/services/#forex-transaction">
+            <Link scroll={false} href="/services/#forex-transaction">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
                 <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
                   <IoCash className="text-white text-4xl" />
@@ -183,7 +186,7 @@ export default function Home() {
                 <p className="text-lg text-[#67747a]">Currency Exchange</p>
               </div>
             </Link>
-            <Link href="/services/#internships">
+            <Link scroll={false} href="/services/#internships">
               <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
                 <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
                   <MdPerson className="text-white text-4xl" />
@@ -199,35 +202,35 @@ export default function Home() {
         <div className="flex flex-col px-4 mt-8 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
           <h1 className="font-bold text-3xl py-4 text-center">Trainings</h1>
           <div className="flex flex-col md:justify-center md:flex-row flex-wrap px-2 py-6 gap-8">
-            <Link href="/services/test-preparation#ielts">
+            <Link scroll={false} href="/services/test-preparation#ielts">
               <img
                 src="/tests/ielts.png"
                 alt="IELTS"
                 className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
               />
             </Link>
-            <Link href="/services/test-preparation#german">
+            <Link scroll={false} href="/services/test-preparation#german">
               <img
                 src="/tests/german.png"
                 alt="German"
                 className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
               />
             </Link>
-            <Link href="/services/test-preparation#gmat">
+            <Link scroll={false} href="/services/test-preparation#gmat">
               <img
                 src="/tests/gmat.png"
                 alt="GMAT"
                 className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
               />
             </Link>
-            <Link href="/services/test-preparation#pte">
+            <Link scroll={false} href="/services/test-preparation#pte">
               <img
                 src="/tests/pte.png"
                 alt="PTE"
                 className="w-full md:w-auto md:h-24 hover:scale-105 transition-all"
               />
             </Link>
-            <Link href="/services/test-preparation#toefl">
+            <Link scroll={false} href="/services/test-preparation#toefl">
               <img
                 src="/tests/toefl.png"
                 alt="TOEFL"
@@ -244,7 +247,10 @@ export default function Home() {
             and pursue your dreams?
           </p>
           <button className="bg-white gap-2 items-center justify-center flex flex-row rounded-md w-48 px-4 py-3">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Get Started
             </Link>
             <HiArrowRight className="text-2xl" />

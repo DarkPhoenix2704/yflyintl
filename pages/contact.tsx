@@ -42,10 +42,10 @@ const ContactPage = () => {
     <div className="flex flex-col items-center ">
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
-          <Link href="/">
+          <Link scroll={false} href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
           </Link>
-          <Link href={`/`}>
+          <Link scroll={false} href={`/`}>
             <span className="font-semibold text-white">&nbsp;Contact Us</span>
           </Link>
         </div>
@@ -61,6 +61,7 @@ const ContactPage = () => {
         <div className="w-full lg:w-1/2 flex flex-col items-left">
           <h1 className="text-xl font-semibold py-1">Connect Us </h1>
           <Link
+            scroll={false}
             href="mailto:info@yflyinternational.com"
             className="flex flex-row text-[#7f7f8f] items-center gap-2"
           >
@@ -68,6 +69,7 @@ const ContactPage = () => {
             info@yflyinternational.com{" "}
           </Link>
           <Link
+            scroll={false}
             href="https://api.whatsapp.com/send?phone=919947788222&text=Hi"
             className="flex flex-row text-[#7f7f8f] items-center gap-2"
           >

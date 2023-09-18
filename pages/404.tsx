@@ -5,10 +5,10 @@ const NotFound = () => {
     <div className="flex flex-col items-center ">
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
-          <Link href="/">
+          <Link scroll={false} href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
           </Link>
-          <Link href={`/`}>
+          <Link scroll={false} href={`/`}>
             <span className="font-semibold text-white">&nbsp;404</span>
           </Link>
         </div>

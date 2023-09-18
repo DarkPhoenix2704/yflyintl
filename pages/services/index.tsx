@@ -9,10 +9,10 @@ const Services = () => {
     <div className="flex justify-center items-center flex-col">
       <div className="bg-[#2860ad] text-center py-16 flex flex-col w-full items-center text-lg gap-4">
         <div className="flex flex-row text-sm justify-center">
-          <Link href="/">
+          <Link scroll={false} href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
           </Link>
-          <Link href={`/services`}>
+          <Link scroll={false} href={`/services`}>
             <span className="font-semibold text-white">&nbsp;Services</span>
           </Link>
         </div>
@@ -25,7 +25,10 @@ const Services = () => {
           programs in eminent institutions, and we welcome you to do the same!
         </p>
         <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] px-6 py-2">
-          <Link href="https://registration.yflyinternational.com/">
+          <Link
+            scroll={false}
+            href="https://registration.yflyinternational.com/"
+          >
             Get Started
           </Link>
         </button>
@@ -58,7 +61,10 @@ const Services = () => {
               <li>Visa Counselling</li>
             </ul>
             <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-              <Link href="https://registration.yflyinternational.com/">
+              <Link
+                scroll={false}
+                href="https://registration.yflyinternational.com/"
+              >
                 Enquire Now
               </Link>
             </button>
@@ -102,7 +108,9 @@ const Services = () => {
             <li>Score oriented tutorials & mock tests</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="/services/test-preparation">Know More</Link>
+            <Link scroll={false} href="/services/test-preparation">
+              Know More
+            </Link>
           </button>
         </div>
       </div>
@@ -131,7 +139,10 @@ const Services = () => {
             <li>Course options across 700+ universities in 31 countries</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -176,7 +187,10 @@ const Services = () => {
             </li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -206,7 +220,10 @@ const Services = () => {
             <li>Assistance for scholarship essays</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -247,7 +264,10 @@ const Services = () => {
             <li>Know your placement periods and stipends</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -277,7 +297,10 @@ const Services = () => {
             <li>Hassle free documentation</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -320,7 +343,10 @@ const Services = () => {
             <li>Mock visa interviews</li>
           </ul>
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -342,7 +368,10 @@ const Services = () => {
           </p>
 
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -378,7 +407,10 @@ const Services = () => {
           </p>
 
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -400,7 +432,10 @@ const Services = () => {
           </p>
 
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -436,7 +471,10 @@ const Services = () => {
           </p>
 
           <button className="bg-[#d5deeb] text-[#2860ad] font-semibold rounded-xl hover:bg-[#E0E1FF] w-48 mt-4 px-6 py-2">
-            <Link href="https://registration.yflyinternational.com/">
+            <Link
+              scroll={false}
+              href="https://registration.yflyinternational.com/"
+            >
               Enquire Now
             </Link>
           </button>
@@ -450,7 +488,10 @@ const Services = () => {
           and pursue your dreams?
         </p>
         <button className="bg-white gap-2 items-center justify-center flex flex-row rounded-md w-48 px-4 py-3">
-          <Link href="https://registration.yflyinternational.com/">
+          <Link
+            scroll={false}
+            href="https://registration.yflyinternational.com/"
+          >
             Get Started
           </Link>
           <HiArrowRight className="text-2xl" />

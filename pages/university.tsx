@@ -31,10 +31,10 @@ const UniverityPage = () => {
     <div className="flex flex-col items-center ">
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
-          <Link href="/">
+          <Link scroll={false} href="/">
             <p className="text-[#f4f0f8] font-medium">Home •</p>
           </Link>
-          <Link href={`/country`}>
+          <Link scroll={false} href={`/country`}>
             <span className="font-semibold text-white">&nbsp;Universities</span>
           </Link>
         </div>
@@ -84,6 +84,7 @@ const UniverityPage = () => {
             {availableUniversities &&
               availableUniversities.map((val) => (
                 <Link
+                  scroll={false}
                   href={val.website}
                   key={val.id}
                   className="w-11/12 lg:w-10/12"
