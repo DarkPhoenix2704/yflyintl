@@ -97,86 +97,103 @@ export default function Home() {
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-              <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                <HiOutlineAcademicCap className="text-white text-4xl" />
+            <Link href="/services/#application-process">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
+                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
+                  <HiOutlineAcademicCap className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">University Admissions</p>
+                <p className="text-lg text-[#67747a]">
+                  Expert Guidance and Support for Your Academic Journey..
+                </p>
               </div>
-              <p className="font-bold text-xl ">University Admissions</p>
-              <p className="text-lg text-[#67747a]">
-                Expert Guidance and Support for Your Academic Journey..
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                <GrVisa className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#visa-guidance">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                  <GrVisa className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Seamless Visa Consultancy</p>
+                <p className="text-lg text-[#67747a]">
+                  Simplifying the Visa Process for Your Study Abroad Journey.
+                </p>
               </div>
-              <p className="font-bold text-xl ">Seamless Visa Consultancy</p>
-              <p className="text-lg text-[#67747a]">
-                Simplifying the Visa Process for Your Study Abroad Journey.
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-              <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                <IoHomeOutline className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#student-accomodation">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
+                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
+                  <IoHomeOutline className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Finding Your Home</p>
+                <p className="text-lg text-[#67747a]">
+                  Hassle-free Accommodation Solutions
+                </p>
               </div>
-              <p className="font-bold text-xl ">Finding Your Home</p>
-              <p className="text-lg text-[#67747a]">
-                Hassle-free Accommodation Solutions
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-              <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                <MdFlight className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#flight-booking">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+                <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
+                  <MdFlight className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Flight Booking</p>
+                <p className="text-lg text-[#67747a]">
+                  Get Great Deals for both International Flights
+                </p>
               </div>
-              <p className="font-bold text-xl ">Flight Booking</p>
-              <p className="text-lg text-[#67747a]">
-                Get Great Deals for both International Flights
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                <MdFlight className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#flight-booking">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                  <MdFlight className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Pre-Departure Briefing</p>
+                <p className="text-lg text-[#67747a]">
+                  Equipping You for a Successful Study Abroad Journey.
+                </p>
               </div>
-              <p className="font-bold text-xl ">Pre-Departure Briefing</p>
-              <p className="text-lg text-[#67747a]">
-                Equipping You for a Successful Study Abroad Journey.
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-              <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                <MdBook className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#lor-preparation">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
+                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
+                  <MdBook className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">SOP / LOR Preparation</p>
+                <p className="text-lg text-[#67747a]">
+                  Assistance for SOP/LOR Preparation
+                </p>
               </div>
-              <p className="font-bold text-xl ">SOP / LOR Preparation</p>
-              <p className="text-lg text-[#67747a]">
-                Assistance for SOP/LOR Preparation
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                <MdMoney className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#education-loan">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                  <MdMoney className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Edu Loans</p>
+                <p className="text-lg text-[#67747a]">
+                  Get attractive Education Loans
+                </p>
               </div>
-              <p className="font-bold text-xl ">Edu Loans</p>
-              <p className="text-lg text-[#67747a]">
-                Get attractive Education Loans
-              </p>
-            </div>
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-              <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                <IoCash className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#forex-transaction">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
+                <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
+                  <IoCash className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Forex Transactions</p>
+                <p className="text-lg text-[#67747a]">Currency Exchange</p>
               </div>
-              <p className="font-bold text-xl ">Forex Transactions</p>
-              <p className="text-lg text-[#67747a]">Currency Exchange</p>
-            </div>
-
-            <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-              <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                <MdPerson className="text-white text-4xl" />
+            </Link>
+            <Link href="/services/#internships">
+              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
+                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
+                  <MdPerson className="text-white text-4xl" />
+                </div>
+                <p className="font-bold text-xl ">Internships</p>
+                <p className="text-lg text-[#67747a]">
+                  Find the best internships for you
+                </p>
               </div>
-              <p className="font-bold text-xl ">Internships</p>
-              <p className="text-lg text-[#67747a]">
-                Find the best internships for you
-              </p>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col px-4 mt-8 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
