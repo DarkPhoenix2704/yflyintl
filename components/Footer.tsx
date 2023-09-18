@@ -108,7 +108,7 @@ export const Footer = () => {
           </Link>
         </div>
         <p className="text-white">
-          © 2023 YFly International. All Rights Reserved.
+          © 2023 YFLY International. All Rights Reserved.
         </p>
       </div>
     </div>
