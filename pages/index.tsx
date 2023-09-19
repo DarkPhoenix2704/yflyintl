@@ -30,7 +30,7 @@ export default function Home() {
 
             <p className="text-lg text-[#8a8dad] mt-4">
               Let&apos;s Elevate Your Higher Education Journey Together, Unlock
-              New Heights with Our Expert ConsultaKons!
+              New Heights with Our Expert Consultations!
             </p>
             <button className="bg-[#0561b2] w-48 py-4 text-white font-bold text-lg rounded-xl px-6  mt-4">
               <Link
@@ -43,58 +43,6 @@ export default function Home() {
           </div>
           <div className="md:flex flex-col hidden md:w-1/2">
             <img src="/hero.png" alt="Hero Image" className="w-3/4" />
-          </div>
-        </div>
-        <div className="flex flex-col mt-8 bg-[#f9fafc] justify-center py-16 font-semibold items-center">
-          <h1 className="font-bold text-3xl py-4 text-center">
-            FEATURED UNIVERSITIES
-          </h1>
-          <div className="flex flex-col md:flex-row md:flex-wrap px-2 gap-8 justify-center">
-            <img
-              src="/princeton_logo.png"
-              alt="Logo 1"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/yle_logo.png"
-              alt="Logo 2"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/harvard_logo.png"
-              alt="Logo 3"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/toronto_logo.png"
-              alt="Logo 4"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-          </div>
-        </div>
-        <div className="flex flex-col mt-2 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
-          <h1 className="font-bold text-3xl py-4 text-center">TOP B Schools</h1>
-          <div className="flex flex-col md:flex-row md:flex-wrap justify-center px-2 py-4 gap-8">
-            <img
-              src="/college-logo/stanford.jpg"
-              alt="Logo 1"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/college-logo/harvard.jpg"
-              alt="Logo 2"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/college-logo/mit.jpg"
-              alt="Logo 3"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
-            <img
-              src="/college-logo/london.jpg"
-              alt="Logo 4"
-              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
-            />
           </div>
         </div>
         <div className="flex flex-col bg-gradient-radial items-center justify-center">
@@ -239,6 +187,59 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <div className="flex flex-col mt-8 bg-[#f9fafc] justify-center py-16 font-semibold items-center">
+          <h1 className="font-bold text-3xl py-4 text-center">
+            FEATURED UNIVERSITIES
+          </h1>
+          <div className="flex flex-col md:flex-row md:flex-wrap px-2 gap-8 justify-center">
+            <img
+              src="/princeton_logo.png"
+              alt="Logo 1"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/yle_logo.png"
+              alt="Logo 2"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/harvard_logo.png"
+              alt="Logo 3"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/toronto_logo.png"
+              alt="Logo 4"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col mt-2 bg-[#f9fafc] justify-center py-8 font-semibold items-center">
+          <h1 className="font-bold text-3xl py-4 text-center">TOP B Schools</h1>
+          <div className="flex flex-col md:flex-row md:flex-wrap justify-center px-2 py-4 gap-8">
+            <img
+              src="/college-logo/stanford.jpg"
+              alt="Logo 1"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/college-logo/harvard.jpg"
+              alt="Logo 2"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/college-logo/mit.jpg"
+              alt="Logo 3"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+            <img
+              src="/college-logo/london.jpg"
+              alt="Logo 4"
+              className="w-full md:w-auto md:h-32 hover:scale-105 transition-all"
+            />
+          </div>
+        </div>
+
         <div className="flex gap-3 flex-col relative bg-gradient-to-r from-[#e6e5e1] to-[#eeeeec] justify-center py-16 lg:mx-32 rounded-lg px-8 font-semibold ">
           <h1 className=" text-3xl md:text-6xl text-[#040c61] font-semibold">
             Are you ready to fly
