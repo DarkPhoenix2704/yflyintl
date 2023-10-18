@@ -24,8 +24,15 @@ export default function Home() {
               alt="Hero Image"
               className="block text-center my-4 md:hidden"
             />
+            <p className="text-lg text-[#8a8dad] mt-4">
+              Making International Education Accessible to All
+            </p>
             <h1 className="md:leading-[1.2] leading-[1.2] text-5xl md:text-6xl  font-bold text-[#040c61]">
-              Unlock Boundless Horizons, Embark on Your Global Odyssey with Us!
+              30+ Countries
+              <br />
+              3000+ Universities
+              <br />
+              1,00,000+ Courses
             </h1>
 
             <p className="text-lg text-[#8a8dad] mt-4">
@@ -49,100 +56,146 @@ export default function Home() {
           <h1 className="font-bold text-3xl py-4 text-center">Our Services</h1>
           <div className="flex flex-row py-8 items-center justify-center gap-8 flex-wrap">
             <Link scroll={false} href="/services/#application-process">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                  <HiOutlineAcademicCap className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-red-500">
+                <img
+                  src="/services/card/admission.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">
+                    University Admissions
+                  </h1>
+                  <p className="text-md text-[#697479]">
+                    Expert Guidance and Support for Your Academic Journey..
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">University Admissions</p>
-                <p className="text-lg text-[#67747a]">
-                  Expert Guidance and Support for Your Academic Journey..
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#visa-guidance">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                  <GrVisa className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-[#71ce88]">
+                <img
+                  src="/services/card/visa-consultancy.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">
+                    Seamless Visa Consultancy
+                  </h1>
+                  <p className="text-md text-[#697479]">
+                    Simplifying the Visa Process for Your Study Abroad Journey.
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Seamless Visa Consultancy</p>
-                <p className="text-lg text-[#67747a]">
-                  Simplifying the Visa Process for Your Study Abroad Journey.
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#student-accomodation">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                  <IoHomeOutline className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-red-500">
+                <img
+                  src="/services/card/home.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">Finding Your Home</h1>
+                  <p className="text-md text-[#697479]">
+                    Hassle-free Accommodation Solutions
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Finding Your Home</p>
-                <p className="text-lg text-[#67747a]">
-                  Hassle-free Accommodation Solutions
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#flight-booking">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-                <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                  <MdFlight className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-[#727cfe]">
+                <img
+                  src="/services/card/flight.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">Flight Booking</h1>
+                  <p className="text-md text-[#697479]">
+                    Get Great Deals for both International Flights
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Flight Booking</p>
-                <p className="text-lg text-[#67747a]">
-                  Get Great Deals for both International Flights
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#flight-booking">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                  <MdFlight className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-[#71ce88]">
+                <img
+                  src="/services/card/briefing.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">
+                    Pre-Departure Briefing
+                  </h1>
+                  <p className="text-md text-[#697479]">
+                    Equipping You for a Successful Study Abroad Journey.
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Pre-Departure Briefing</p>
-                <p className="text-lg text-[#67747a]">
-                  Equipping You for a Successful Study Abroad Journey.
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#lor-preparation">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#ff5959] ">
-                <div className="bg-[#ff5959] flex items-center justify-center rounded-full w-16 h-16">
-                  <MdBook className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-red-500">
+                <img
+                  src="/services/card/sop.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">
+                    SOP / LOR Preparation
+                  </h1>
+                  <p className="text-md text-[#697479]">
+                    Assistance for SOP/LOR Preparation
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">SOP / LOR Preparation</p>
-                <p className="text-lg text-[#67747a]">
-                  Assistance for SOP/LOR Preparation
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#education-loan">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                  <MdMoney className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-[#71ce88]">
+                <img
+                  src="/services/card/loans.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">Edu Loans</h1>
+                  <p className="text-md text-[#697479]">
+                    Secure education loans at the best interest rates...
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Edu Loans</p>
-                <p className="text-lg text-[#67747a]">
-                  Get attractive Education Loans
-                </p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#forex-transaction">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#727cfe] ">
-                <div className="bg-[#727cfe] flex items-center justify-center rounded-full w-16 h-16">
-                  <IoCash className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg max-w-[400px] mx-1 hover:border-[#727cfe]">
+                <img
+                  src="/services/card/forex.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">Forex Transactions</h1>
+                  <p className="text-md text-[#697479]">
+                    Obtain the best exchange rates...
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Forex Transactions</p>
-                <p className="text-lg text-[#67747a]">Currency Exchange</p>
               </div>
             </Link>
             <Link scroll={false} href="/services/#internships">
-              <div className="flex flex-col p-4 w-[320px] gap-2 rounded-xl border-2 bg-white border-white transition-all ease-in hover:border-[#71ce88] ">
-                <div className="bg-[#71ce88] flex items-center justify-center rounded-full w-16 h-16">
-                  <MdPerson className="text-white text-4xl" />
+              <div className="flex border-2 p-2 rounded-lg lg:w-[400px] max-w-[400px] mx-1 hover:border-[#71ce88]">
+                <img
+                  src="/services/card/internships.png"
+                  alt="Service 1"
+                  className="w-32 h-32 object-cover rounded-lg"
+                />
+                <div className="flex flex-col ml-2 gap-1 justify-center">
+                  <h1 className="font-semibold text-xl">Internships</h1>
+                  <p className="text-md text-[#697479]">
+                    We connect you with internships in your...
+                  </p>
                 </div>
-                <p className="font-bold text-xl ">Internships</p>
-                <p className="text-lg text-[#67747a]">
-                  Find the best internships for you
-                </p>
               </div>
             </Link>
           </div>
