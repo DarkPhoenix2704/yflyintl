@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="YFLY International"
+        title="YFLY International | Study Abroad"
         description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
       />
       <div className="flex flex-col">
