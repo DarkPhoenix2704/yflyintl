@@ -5,6 +5,7 @@ import { Disclosure, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { HiArrowRight, HiChevronUp } from "react-icons/hi2";
+import { NextSeo } from "next-seo";
 
 const StudyDestination = ({
   slug,
@@ -19,6 +20,10 @@ const StudyDestination = ({
 }: (typeof destinations)[0]) => {
   return (
     <div className="flex justify-center items-center flex-col">
+      <NextSeo
+        title={`YFLY International | Study in ${name}`}
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="bg-[#0261b2] text-center py-16 flex flex-col w-full text-lg gap-4">
         <div className="flex flex-row text-sm justify-center">
           <Link scroll={false} href="/country">

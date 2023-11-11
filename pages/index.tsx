@@ -1,21 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import { Navbar } from "@app/components/Navbar";
-import { Inter } from "next/font/google";
-import {
-  IoBookOutline,
-  IoCash,
-  IoCashOutline,
-  IoHomeOutline,
-} from "react-icons/io5";
-import { MdBook, MdFlight, MdMoney, MdPerson } from "react-icons/md";
-import { GrVisa } from "react-icons/gr";
-import { HiOutlineAcademicCap } from "react-icons/hi";
+
 import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi2";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
     <>
+      <NextSeo
+        title="YFLY International"
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="flex flex-col">
         <div className="flex flex-col-reverse md:flex-row mt-8 justify-center items-center">
           <div className="flex flex-col md:w-1/2 md:mx-16 mx-4 gap-2">

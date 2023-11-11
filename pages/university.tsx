@@ -2,6 +2,7 @@
 import { destinations } from "@app/data/destinations";
 import { university } from "@app/data/university";
 import { Listbox } from "@headlessui/react";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { HiChevronDown } from "react-icons/hi2";
@@ -29,6 +30,10 @@ const UniverityPage = () => {
 
   return (
     <div className="flex flex-col items-center ">
+      <NextSeo
+        title="YFLY International | Search University"
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link scroll={false} href="/">

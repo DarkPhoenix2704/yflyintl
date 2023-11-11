@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import MapComponent from "@app/components/MapComponent";
 import { HiOutlineMail, HiPhone, HiMap } from "react-icons/hi";
+import { NextSeo } from "next-seo";
 
 const ContactPage = () => {
   const [name, setName] = useState<string | null>(null);
@@ -40,6 +41,10 @@ const ContactPage = () => {
 
   return (
     <div className="flex flex-col items-center ">
+      <NextSeo
+        title="YFLY International | Contact Us"
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link scroll={false} href="/">

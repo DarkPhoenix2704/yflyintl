@@ -1,10 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi";
 
 const Services = () => {
   return (
     <div className="flex justify-center items-center flex-col">
+      <NextSeo
+        title="YFLY International | Test Preparation"
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="bg-[#2860ad] text-center py-16 flex flex-col w-full items-center text-lg gap-4">
         <div className="flex flex-row text-sm justify-center">
           <Link scroll={false} href="/">

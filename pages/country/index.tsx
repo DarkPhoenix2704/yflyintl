@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { destinations } from "@app/data/destinations";
 import { Listbox } from "@headlessui/react";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { useState } from "react";
 import { HiChevronDown, HiChevronRight } from "react-icons/hi2";
@@ -16,6 +17,10 @@ const CountryPage = () => {
   >(null);
   return (
     <div className="flex flex-col items-center ">
+      <NextSeo
+        title="YFLY International | Study Destinations"
+        description="Let's Elevate Your Higher Education Journey Together, Unlock New Heights with Our Expert Consultations!"
+      />
       <div className="bg-[#2860ad] py-16 gap-4 w-full flex flex-col items-center">
         <div className="flex flex-row text-sm justify-center">
           <Link scroll={false} href="/">
